@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */; };
+		F9F1D84122FE21610089CEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* ViewController.swift */; };
+		F9F1D84422FE21610089CEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* Main.storyboard */; };
+		F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84522FE21630089CEB7 /* Assets.xcassets */; };
+		F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */; };
+		F9F1D85422FE21630089CEB7 /* AndrosCodemo_CVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D85322FE21630089CEB7 /* AndrosCodemo_CVTests.swift */; };
+		F9F1D85F22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D85E22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9F1D85022FE21630089CEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F1D83322FE21610089CEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F1D83A22FE21610089CEB7;
+			remoteInfo = "AndrosCodemo CV";
+		};
+		F9F1D85B22FE21630089CEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F1D83322FE21610089CEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F1D83A22FE21610089CEB7;
+			remoteInfo = "AndrosCodemo CV";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AndrosCodemo CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9F1D84022FE21610089CEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9F1D84322FE21610089CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F1D84522FE21630089CEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9F1D84822FE21630089CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9F1D84A22FE21630089CEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F1D84F22FE21630089CEB7 /* AndrosCodemo CVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AndrosCodemo CVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1D85322FE21630089CEB7 /* AndrosCodemo_CVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrosCodemo_CVTests.swift; sourceTree = "<group>"; };
+		F9F1D85522FE21630089CEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F1D85A22FE21630089CEB7 /* AndrosCodemo CVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AndrosCodemo CVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9F1D85E22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrosCodemo_CVUITests.swift; sourceTree = "<group>"; };
+		F9F1D86022FE21630089CEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9F1D83822FE21610089CEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D84C22FE21630089CEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D85722FE21630089CEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9F1D83222FE21610089CEB7 = {
+			isa = PBXGroup;
+			children = (
+				F9F1D83D22FE21610089CEB7 /* AndrosCodemo CV */,
+				F9F1D85222FE21630089CEB7 /* AndrosCodemo CVTests */,
+				F9F1D85D22FE21630089CEB7 /* AndrosCodemo CVUITests */,
+				F9F1D83C22FE21610089CEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9F1D83C22FE21610089CEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */,
+				F9F1D84F22FE21630089CEB7 /* AndrosCodemo CVTests.xctest */,
+				F9F1D85A22FE21630089CEB7 /* AndrosCodemo CVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9F1D83D22FE21610089CEB7 /* AndrosCodemo CV */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */,
+				F9F1D84022FE21610089CEB7 /* ViewController.swift */,
+				F9F1D84222FE21610089CEB7 /* Main.storyboard */,
+				F9F1D84522FE21630089CEB7 /* Assets.xcassets */,
+				F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */,
+				F9F1D84A22FE21630089CEB7 /* Info.plist */,
+			);
+			path = "AndrosCodemo CV";
+			sourceTree = "<group>";
+		};
+		F9F1D85222FE21630089CEB7 /* AndrosCodemo CVTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D85322FE21630089CEB7 /* AndrosCodemo_CVTests.swift */,
+				F9F1D85522FE21630089CEB7 /* Info.plist */,
+			);
+			path = "AndrosCodemo CVTests";
+			sourceTree = "<group>";
+		};
+		F9F1D85D22FE21630089CEB7 /* AndrosCodemo CVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D85E22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift */,
+				F9F1D86022FE21630089CEB7 /* Info.plist */,
+			);
+			path = "AndrosCodemo CVUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9F1D83A22FE21610089CEB7 /* AndrosCodemo CV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F1D86322FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CV" */;
+			buildPhases = (
+				F9F1D83722FE21610089CEB7 /* Sources */,
+				F9F1D83822FE21610089CEB7 /* Frameworks */,
+				F9F1D83922FE21610089CEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AndrosCodemo CV";
+			productName = "AndrosCodemo CV";
+			productReference = F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9F1D84E22FE21630089CEB7 /* AndrosCodemo CVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F1D86622FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CVTests" */;
+			buildPhases = (
+				F9F1D84B22FE21630089CEB7 /* Sources */,
+				F9F1D84C22FE21630089CEB7 /* Frameworks */,
+				F9F1D84D22FE21630089CEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F1D85122FE21630089CEB7 /* PBXTargetDependency */,
+			);
+			name = "AndrosCodemo CVTests";
+			productName = "AndrosCodemo CVTests";
+			productReference = F9F1D84F22FE21630089CEB7 /* AndrosCodemo CVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9F1D85922FE21630089CEB7 /* AndrosCodemo CVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9F1D86922FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CVUITests" */;
+			buildPhases = (
+				F9F1D85622FE21630089CEB7 /* Sources */,
+				F9F1D85722FE21630089CEB7 /* Frameworks */,
+				F9F1D85822FE21630089CEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9F1D85C22FE21630089CEB7 /* PBXTargetDependency */,
+			);
+			name = "AndrosCodemo CVUITests";
+			productName = "AndrosCodemo CVUITests";
+			productReference = F9F1D85A22FE21630089CEB7 /* AndrosCodemo CVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9F1D83322FE21610089CEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Andros Codemo";
+				TargetAttributes = {
+					F9F1D83A22FE21610089CEB7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F9F1D84E22FE21630089CEB7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F9F1D83A22FE21610089CEB7;
+					};
+					F9F1D85922FE21630089CEB7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F9F1D83A22FE21610089CEB7;
+					};
+				};
+			};
+			buildConfigurationList = F9F1D83622FE21610089CEB7 /* Build configuration list for PBXProject "AndrosCodemo CV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9F1D83222FE21610089CEB7;
+			productRefGroup = F9F1D83C22FE21610089CEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9F1D83A22FE21610089CEB7 /* AndrosCodemo CV */,
+				F9F1D84E22FE21630089CEB7 /* AndrosCodemo CVTests */,
+				F9F1D85922FE21630089CEB7 /* AndrosCodemo CVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9F1D83922FE21610089CEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
+				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
+				F9F1D84422FE21610089CEB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D84D22FE21630089CEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D85822FE21630089CEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F1D83722FE21610089CEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1D84122FE21610089CEB7 /* ViewController.swift in Sources */,
+				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D84B22FE21630089CEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1D85422FE21630089CEB7 /* AndrosCodemo_CVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F1D85622FE21630089CEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1D85F22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9F1D85122FE21630089CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F1D83A22FE21610089CEB7 /* AndrosCodemo CV */;
+			targetProxy = F9F1D85022FE21630089CEB7 /* PBXContainerItemProxy */;
+		};
+		F9F1D85C22FE21630089CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F1D83A22FE21610089CEB7 /* AndrosCodemo CV */;
+			targetProxy = F9F1D85B22FE21630089CEB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9F1D84222FE21610089CEB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F1D84322FE21610089CEB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9F1D84822FE21630089CEB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9F1D86122FE21630089CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F9F1D86222FE21630089CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F1D86422FE21630089CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9F1D86522FE21630089CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CV/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9F1D86722FE21630089CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndrosCodemo CV.app/AndrosCodemo CV";
+			};
+			name = Debug;
+		};
+		F9F1D86822FE21630089CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CVTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndrosCodemo CV.app/AndrosCodemo CV";
+			};
+			name = Release;
+		};
+		F9F1D86A22FE21630089CEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AndrosCodemo CV";
+			};
+			name = Debug;
+		};
+		F9F1D86B22FE21630089CEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = "AndrosCodemo CVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AndrosCodemo CV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9F1D83622FE21610089CEB7 /* Build configuration list for PBXProject "AndrosCodemo CV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F1D86122FE21630089CEB7 /* Debug */,
+				F9F1D86222FE21630089CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F1D86322FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F1D86422FE21630089CEB7 /* Debug */,
+				F9F1D86522FE21630089CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F1D86622FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F1D86722FE21630089CEB7 /* Debug */,
+				F9F1D86822FE21630089CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9F1D86922FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemo CVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F1D86A22FE21630089CEB7 /* Debug */,
+				F9F1D86B22FE21630089CEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9F1D83322FE21610089CEB7 /* Project object */;
+}
