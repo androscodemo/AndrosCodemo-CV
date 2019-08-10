@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Birth information"; ObjectID = "0bE-7J-yE8"; */
+"0bE-7J-yE8.text" = "Información de nacimiento";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "3h0-Vh-JYe"; */
+"3h0-Vh-JYe.text" = "Nombre";
+
+/* Class = "UILabel"; text = "Who depends on me"; ObjectID = "WwS-Yq-jxe"; */
+"WwS-Yq-jxe.text" = "Dependientes";
+
+/* Class = "UILabel"; text = "Age"; ObjectID = "glW-i0-eQw"; */
+"glW-i0-eQw.text" = "Edad";
+
+/* Class = "UILabel"; text = "Marital status"; ObjectID = "kcx-dG-JCs"; */
+"kcx-dG-JCs.text" = "Estado civil";
+
+/* Class = "UILabel"; text = "Education level"; ObjectID = "rCA-O3-jdh"; */
+"rCA-O3-jdh.text" = "Nivel de educación";

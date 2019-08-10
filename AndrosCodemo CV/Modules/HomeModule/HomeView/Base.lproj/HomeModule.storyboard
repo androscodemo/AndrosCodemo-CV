@@ -9,34 +9,34 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--View Controller-->
         <scene sceneID="5Dk-fY-Aai">
             <objects>
-                <tableViewController storyboardIdentifier="HomeViewController" id="nfV-2m-VcJ" customClass="HomeViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="HViewController" id="nfV-2m-VcJ" customClass="HViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="nje-gj-4xa">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HomeViewCell" rowHeight="77" id="aIc-vk-Hdv" customClass="HomeViewCell" customModule="AndrosCodemo_CV" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="320" height="77"/>
+                            <tableViewCell contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="HTableViewCell" rowHeight="94" id="aIc-vk-Hdv" customClass="HTableViewCell" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="aIc-vk-Hdv" id="5Vd-ow-Ny1">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qtL-ks-zF8" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
-                                            <rect key="frame" x="16" y="12" width="288" height="53"/>
+                                            <rect key="frame" x="16" y="12" width="288" height="70"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ll-k3-d82">
-                                                    <rect key="frame" x="16" y="10" width="33" height="33"/>
+                                                    <rect key="frame" x="16" y="10" width="50" height="50"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="33" id="EKb-Cm-CJE"/>
+                                                        <constraint firstAttribute="height" constant="50" id="EKb-Cm-CJE"/>
                                                         <constraint firstAttribute="width" secondItem="2ll-k3-d82" secondAttribute="height" multiplier="1:1" id="tg8-Xd-mRM"/>
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Content" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k5x-Sf-XWI">
-                                                    <rect key="frame" x="115" y="17" width="58.5" height="19.5"/>
+                                                    <rect key="frame" x="115" y="25.5" width="58.5" height="19.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleCallout"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>

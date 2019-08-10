@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  HViewController.swift
 //  AndrosCodemo CV
 //
 //  Created by Andros Codemo on 8/9/19.
@@ -8,20 +8,16 @@
 
 import UIKit
 
-protocol HomeView: class {
+protocol HView: class {
     
-    func setElements(homeModel: HomeModel) -> Void
+    func dataReady() -> Void
     
 }
 
-class HomeViewController: UITableViewController {
+class HViewController: UITableViewController {
 
     //MARK:Properties
-    var presenter: HomePresentation!
-    
-    var elements: [HomeElement] = [] {
-        didSet { tableView.reloadData() }
-    }
+    public var presenter: HPresentation!
     
     //MARK:Lifecycle
     override func viewDidLoad() {
@@ -32,37 +28,29 @@ class HomeViewController: UITableViewController {
         presenter.viewDidLoad()
     }
     
-    //MARK:Private Functions
-    private func prepare(cell: HomeViewCell, forRow row: Int) {
-        let element = elements[row]
-        cell.setImage(named: element.iconName)
-        cell.setTitle(element.title)
-    }
-    
 }
 
-extension HomeViewController: HomeView {
+extension HViewController: HView {
     
-    func setElements(homeModel: HomeModel) {
-        DispatchQueue.main.async {
-            self.elements = homeModel.elements
-        }
+    func dataReady() {
+        self.tableView.reloadData()
     }
     
 }
 
 //MARK:Table handling
-extension HomeViewController {
+extension HViewController {
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return elements.count
+        return presenter.numberOfElements
     }
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell: HomeViewCell = tableView.dequeueCell(for: indexPath)
-        prepare(cell: cell, forRow: indexPath.row)
+        let cell: HTableViewCell = tableView.dequeueCell(for: indexPath)
+        presenter.prepare(cell  : cell,
+                          forRow: indexPath.row)
         return cell
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

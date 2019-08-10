@@ -1,5 +1,5 @@
 //
-//  HomeModuleBuilder.swift
+//  HModuleBuilder.swift
 //  AndrosCodemo CV
 //
 //  Created by Andros Codemo on 8/9/19.
@@ -8,15 +8,15 @@
 
 import UIKit
 
-class HomeModuleBuilder {
+class HModuleBuilder {
     
     func build() -> UIViewController {
         let storyboard = UIStoryboard(name  : "HomeModule",
                                       bundle: nil)
-        let viewController: HomeViewController = storyboard.instantiate()
-        viewController.presenter = HomePresenter(view      : viewController,
-                                                 interactor: HomeInteractor(),
-                                                 router    : HomeRouter(viewController: viewController))
+        let viewController: HViewController = storyboard.instantiate()
+        viewController.presenter = HPresenter(view      : viewController,
+                                                 interactor: HInteractor(),
+                                                 router    : HRouter(viewController: viewController))
         
         let navigationController = UINavigationController()
         navigationController.navigationBar.tintColor     = .black

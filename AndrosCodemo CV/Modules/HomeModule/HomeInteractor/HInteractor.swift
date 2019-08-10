@@ -1,5 +1,5 @@
 //
-//  HomeInteractor.swift
+//  HInteractor.swift
 //  AndrosCodemo CV
 //
 //  Created by Andros Codemo on 8/9/19.
@@ -12,11 +12,11 @@ protocol HomeFetcher {
     
 }
 
-class HomeInteractor {
+class HInteractor {
     
 }
 
-extension HomeInteractor: HomeFetcher {
+extension HInteractor: HomeFetcher {
     
     func getElements() -> HomeModel {
         return HomeModel(elements: [HomeElement(title   : "Personal information",

@@ -13,6 +13,15 @@ import UIKit.UIView
     @IBInspectable var cornerRadius          : CGFloat = 0
     @IBInspectable var cornerRadiusMultiplier: CGFloat = 0
     
+    @IBInspectable var gradientFirstColor : UIColor? {
+        didSet { updateGradient() }
+    }
+    @IBInspectable var gradientSecondColor: UIColor? {
+        didSet { updateGradient() }
+    }
+    
+    private var lyGradient: CAGradientLayer?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         layer.masksToBounds = false
@@ -20,7 +29,30 @@ import UIKit.UIView
     
     override func layoutSubviews() {
         super.layoutSubviews()
+        lyGradient?.frame  = bounds
         layer.cornerRadius = cornerRadius + (frame.height * cornerRadiusMultiplier)
+    }
+    
+    private func updateGradient() {
+        guard let firstColor  = gradientFirstColor,
+              let secondColor = gradientSecondColor else {
+                lyGradient?.removeFromSuperlayer()
+                lyGradient = nil
+                return
+        }
+        if lyGradient == nil {
+            let layer = CAGradientLayer()
+            layer.frame = bounds
+            layer.colors = [firstColor .cgColor,
+                            secondColor.cgColor]
+            layer.startPoint = CGPoint(x: 0.5, y: 0)
+            layer.endPoint   = CGPoint(x: 0.5, y: 1)
+            lyGradient = layer
+            self.layer.insertSublayer(layer, at: 0)
+        } else {
+            lyGradient?.colors = [firstColor .cgColor,
+                                  secondColor.cgColor]
+        }
     }
     
 }
