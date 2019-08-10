@@ -59,7 +59,7 @@ extension HRouter: HRouting {
     }
     
     func goToContact(withTitle title: String) {
-        push(viewController: UIViewController())
+        push(viewController: ContactModuleBuilder().build(withTitle: localizedTitle(title)))
     }
     
     func goToAboutThisProject(withTitle title: String) {

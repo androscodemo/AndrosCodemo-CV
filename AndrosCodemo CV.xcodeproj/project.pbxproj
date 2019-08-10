@@ -14,6 +14,8 @@
 		F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */; };
 		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
 		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
+		F91CC82A22FF75C100C237A8 /* ContactBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CC82922FF75C100C237A8 /* ContactBuilder.swift */; };
+		F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93612A722FF67CC00FAC707 /* IBButton.swift */; };
 		F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749AE22FE876600B14AB1 /* IBImageView.swift */; };
 		F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */; };
 		F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */; };
@@ -21,6 +23,12 @@
 		F98BA51822FE742D002737DE /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51722FE742D002737DE /* PIViewController.swift */; };
 		F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51922FE74B4002737DE /* PIPresenter.swift */; };
 		F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */; };
+		F9E5D71122FF6B0F00554A10 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E5D71322FF6B0F00554A10 /* Contact.storyboard */; };
+		F9E5D71722FF6CAA00554A10 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D71622FF6CAA00554A10 /* CViewController.swift */; };
+		F9E5D71A22FF6DE300554A10 /* CPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D71922FF6DE300554A10 /* CPresenter.swift */; };
+		F9E5D71D22FF6F3600554A10 /* CInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D71C22FF6F3600554A10 /* CInteractor.swift */; };
+		F9E5D71F22FF6F8800554A10 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D71E22FF6F8800554A10 /* ContactModel.swift */; };
+		F9E5D72222FF702B00554A10 /* CRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D72122FF702B00554A10 /* CRouter.swift */; };
 		F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */; };
 		F9F1D84122FE21610089CEB7 /* HViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* HViewController.swift */; };
 		F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */; };
@@ -68,6 +76,8 @@
 		F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
 		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		F91CC82922FF75C100C237A8 /* ContactBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBuilder.swift; sourceTree = "<group>"; };
+		F93612A722FF67CC00FAC707 /* IBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
 		F96749AE22FE876600B14AB1 /* IBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
 		F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationModel.swift; sourceTree = "<group>"; };
 		F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIBuilder.swift; sourceTree = "<group>"; };
@@ -76,6 +86,13 @@
 		F98BA51922FE74B4002737DE /* PIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPresenter.swift; sourceTree = "<group>"; };
 		F9D1AED122FF388E00E93CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalInformation.storyboard; sourceTree = "<group>"; };
 		F9D1AED422FF38A200E93CD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonalInformation.strings; sourceTree = "<group>"; };
+		F9E5D71222FF6B0F00554A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
+		F9E5D71522FF6B1C00554A10 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Contact.strings; sourceTree = "<group>"; };
+		F9E5D71622FF6CAA00554A10 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
+		F9E5D71922FF6DE300554A10 /* CPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPresenter.swift; sourceTree = "<group>"; };
+		F9E5D71C22FF6F3600554A10 /* CInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CInteractor.swift; sourceTree = "<group>"; };
+		F9E5D71E22FF6F8800554A10 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		F9E5D72122FF702B00554A10 /* CRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRouter.swift; sourceTree = "<group>"; };
 		F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AndrosCodemo CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F1D84022FE21610089CEB7 /* HViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HViewController.swift; sourceTree = "<group>"; };
@@ -137,8 +154,30 @@
 			children = (
 				F96749AE22FE876600B14AB1 /* IBImageView.swift */,
 				F9159FB622FE44740066E1A1 /* IBView.swift */,
+				F93612A722FF67CC00FAC707 /* IBButton.swift */,
 			);
 			path = IBKit;
+			sourceTree = "<group>";
+		};
+		F97E0C3022FF5E31007E5641 /* ContactModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5D72322FF755E00554A10 /* ContactBuilder */,
+				F9E5D72022FF702200554A10 /* ContactRouter */,
+				F9E5D71B22FF6F2600554A10 /* ContactInteractor */,
+				F9E5D71822FF6DD800554A10 /* ContactPresenter */,
+				F97E0C3122FF5E41007E5641 /* ContactView */,
+			);
+			path = ContactModule;
+			sourceTree = "<group>";
+		};
+		F97E0C3122FF5E41007E5641 /* ContactView */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5D71622FF6CAA00554A10 /* CViewController.swift */,
+				F9E5D71322FF6B0F00554A10 /* Contact.storyboard */,
+			);
+			path = ContactView;
 			sourceTree = "<group>";
 		};
 		F98BA51022FE73A2002737DE /* PersonalInformationView */ = {
@@ -235,6 +274,38 @@
 			path = ATPBuilder;
 			sourceTree = "<group>";
 		};
+		F9E5D71822FF6DD800554A10 /* ContactPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5D71922FF6DE300554A10 /* CPresenter.swift */,
+			);
+			path = ContactPresenter;
+			sourceTree = "<group>";
+		};
+		F9E5D71B22FF6F2600554A10 /* ContactInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5D71C22FF6F3600554A10 /* CInteractor.swift */,
+			);
+			path = ContactInteractor;
+			sourceTree = "<group>";
+		};
+		F9E5D72022FF702200554A10 /* ContactRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F9E5D72122FF702B00554A10 /* CRouter.swift */,
+			);
+			path = ContactRouter;
+			sourceTree = "<group>";
+		};
+		F9E5D72322FF755E00554A10 /* ContactBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F91CC82922FF75C100C237A8 /* ContactBuilder.swift */,
+			);
+			path = ContactBuilder;
+			sourceTree = "<group>";
+		};
 		F9F1D83222FE21610089CEB7 = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +373,7 @@
 		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F97E0C3022FF5E31007E5641 /* ContactModule */,
 				F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */,
 				F9FC342122FE72FB0029C067 /* PersonalInformationModule */,
 				F9F1D86C22FE25A60089CEB7 /* HomeModule */,
@@ -315,6 +387,7 @@
 				F9F1D87B22FE2CC10089CEB7 /* HomeModel.swift */,
 				F9F1D87D22FE2D0D0089CEB7 /* HomeElement.swift */,
 				F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */,
+				F9E5D71E22FF6F8800554A10 /* ContactModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -506,6 +579,7 @@
 				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
 				F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */,
 				F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */,
+				F9E5D71122FF6B0F00554A10 /* Contact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,9 +605,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FB013322FF547300CAC841 /* ATPRouter.swift in Sources */,
+				F91CC82A22FF75C100C237A8 /* ContactBuilder.swift in Sources */,
 				F9F1D87422FE2B9B0089CEB7 /* HPresenter.swift in Sources */,
 				F9159FB722FE44740066E1A1 /* IBView.swift in Sources */,
 				F9F1D87722FE2BE00089CEB7 /* HRouter.swift in Sources */,
+				F9E5D71722FF6CAA00554A10 /* CViewController.swift in Sources */,
 				F90F955C22FE7B0B00B5382F /* PIRouter.swift in Sources */,
 				F9F1D87E22FE2D0D0089CEB7 /* HomeElement.swift in Sources */,
 				F9F1D87C22FE2CC10089CEB7 /* HomeModel.swift in Sources */,
@@ -541,20 +617,25 @@
 				F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */,
 				F9FB012F22FF52E400CAC841 /* ATPPresenter.swift in Sources */,
 				F9FB012D22FF517E00CAC841 /* ATPViewController.swift in Sources */,
+				F9E5D72222FF702B00554A10 /* CRouter.swift in Sources */,
+				F9E5D71D22FF6F3600554A10 /* CInteractor.swift in Sources */,
 				F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */,
 				F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HTableViewCell.swift in Sources */,
 				F9FB013122FF53AE00CAC841 /* ATPInteractor.swift in Sources */,
 				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
+				F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */,
 				F9FDBD2622FF5BFE00F759DD /* ATPBuilder.swift in Sources */,
 				F9F1D84122FE21610089CEB7 /* HViewController.swift in Sources */,
 				F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */,
 				F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */,
+				F9E5D71A22FF6DE300554A10 /* CPresenter.swift in Sources */,
 				F9F1D87A22FE2C410089CEB7 /* HInteractor.swift in Sources */,
 				F90F955A22FE7ACF00B5382F /* PIInteractor.swift in Sources */,
 				F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */,
 				F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */,
+				F9E5D71F22FF6F8800554A10 /* ContactModel.swift in Sources */,
 				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +687,15 @@
 				F9D1AED422FF38A200E93CD6 /* es */,
 			);
 			name = PersonalInformation.storyboard;
+			sourceTree = "<group>";
+		};
+		F9E5D71322FF6B0F00554A10 /* Contact.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9E5D71222FF6B0F00554A10 /* Base */,
+				F9E5D71522FF6B1C00554A10 /* es */,
+			);
+			name = Contact.storyboard;
 			sourceTree = "<group>";
 		};
 		F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */ = {
