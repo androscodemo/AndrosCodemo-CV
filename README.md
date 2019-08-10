@@ -1,7 +1,7 @@
 # AndrosCodemo-CV
 Senior mobile engineer coding test
 
-In this coding test I'll be writing a native mobile application using Swift 4.2 targeting iOS 10.\
+In this coding test I'll be writing a native mobile application using Swift 4.2 and targeting iOS 10.\
 The app consist in my own CV app.\
 -Professional summary.\
 -Topics of knowledge.\
