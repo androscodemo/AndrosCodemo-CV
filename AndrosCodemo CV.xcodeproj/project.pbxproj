@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9159FB222FE43120066E1A1 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FB122FE43120066E1A1 /* HomeViewCell.swift */; };
+		F9159FB722FE44740066E1A1 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FB622FE44740066E1A1 /* IBView.swift */; };
+		F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */; };
+		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
+		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
+		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
 		F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */; };
-		F9F1D84122FE21610089CEB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* ViewController.swift */; };
-		F9F1D84422FE21610089CEB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* Main.storyboard */; };
+		F9F1D84122FE21610089CEB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* HomeViewController.swift */; };
+		F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */; };
 		F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84522FE21630089CEB7 /* Assets.xcassets */; };
 		F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */; };
 		F9F1D85422FE21630089CEB7 /* AndrosCodemo_CVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D85322FE21630089CEB7 /* AndrosCodemo_CVTests.swift */; };
 		F9F1D85F22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D85E22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift */; };
+		F9F1D87422FE2B9B0089CEB7 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D87322FE2B9B0089CEB7 /* HomePresenter.swift */; };
+		F9F1D87722FE2BE00089CEB7 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D87622FE2BE00089CEB7 /* HomeRouter.swift */; };
+		F9F1D87A22FE2C410089CEB7 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D87922FE2C410089CEB7 /* HomeInteractor.swift */; };
+		F9F1D87C22FE2CC10089CEB7 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D87B22FE2CC10089CEB7 /* HomeModel.swift */; };
+		F9F1D87E22FE2D0D0089CEB7 /* HomeElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D87D22FE2D0D0089CEB7 /* HomeElement.swift */; };
+		F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D88022FE2DC30089CEB7 /* HomeModuleBuilder.swift */; };
+		F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D88422FE2EFA0089CEB7 /* UIStoryboardExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9159FB122FE43120066E1A1 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		F9159FB622FE44740066E1A1 /* IBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
+		F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
+		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
+		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
 		F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AndrosCodemo CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9F1D84022FE21610089CEB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F9F1D84322FE21610089CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9F1D84022FE21610089CEB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F9F1D84322FE21610089CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeModule.storyboard; sourceTree = "<group>"; };
 		F9F1D84522FE21630089CEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9F1D84822FE21630089CEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9F1D84A22FE21630089CEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +66,15 @@
 		F9F1D85A22FE21630089CEB7 /* AndrosCodemo CVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AndrosCodemo CVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F1D85E22FE21630089CEB7 /* AndrosCodemo_CVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndrosCodemo_CVUITests.swift; sourceTree = "<group>"; };
 		F9F1D86022FE21630089CEB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F1D86F22FE2A130089CEB7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModule.strings; sourceTree = "<group>"; };
+		F9F1D87022FE2A140089CEB7 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F9F1D87322FE2B9B0089CEB7 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		F9F1D87622FE2BE00089CEB7 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		F9F1D87922FE2C410089CEB7 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		F9F1D87B22FE2CC10089CEB7 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		F9F1D87D22FE2D0D0089CEB7 /* HomeElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeElement.swift; sourceTree = "<group>"; };
+		F9F1D88022FE2DC30089CEB7 /* HomeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleBuilder.swift; sourceTree = "<group>"; };
+		F9F1D88422FE2EFA0089CEB7 /* UIStoryboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9159FB522FE44680066E1A1 /* IBKit */ = {
+			isa = PBXGroup;
+			children = (
+				F9159FB622FE44740066E1A1 /* IBView.swift */,
+			);
+			path = IBKit;
+			sourceTree = "<group>";
+		};
 		F9F1D83222FE21610089CEB7 = {
 			isa = PBXGroup;
 			children = (
@@ -97,11 +133,12 @@
 		F9F1D83D22FE21610089CEB7 /* AndrosCodemo CV */ = {
 			isa = PBXGroup;
 			children = (
+				F9F1D86D22FE25B10089CEB7 /* Modules */,
+				F9F1D86E22FE25BA0089CEB7 /* Entities */,
+				F9F1D88222FE2EDD0089CEB7 /* Utilities */,
 				F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */,
-				F9F1D84022FE21610089CEB7 /* ViewController.swift */,
-				F9F1D84222FE21610089CEB7 /* Main.storyboard */,
-				F9F1D84522FE21630089CEB7 /* Assets.xcassets */,
 				F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */,
+				F9F1D84522FE21630089CEB7 /* Assets.xcassets */,
 				F9F1D84A22FE21630089CEB7 /* Info.plist */,
 			);
 			path = "AndrosCodemo CV";
@@ -123,6 +160,98 @@
 				F9F1D86022FE21630089CEB7 /* Info.plist */,
 			);
 			path = "AndrosCodemo CVUITests";
+			sourceTree = "<group>";
+		};
+		F9F1D86C22FE25A60089CEB7 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D87F22FE2DB20089CEB7 /* HomeBuilder */,
+				F9F1D87822FE2C310089CEB7 /* HomeInteractor */,
+				F9F1D87522FE2BD40089CEB7 /* HomeRouter */,
+				F9F1D87222FE2B820089CEB7 /* HomePresenter */,
+				F9F1D87122FE2B570089CEB7 /* HomeView */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
+		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D86C22FE25A60089CEB7 /* HomeModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		F9F1D86E22FE25BA0089CEB7 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D87B22FE2CC10089CEB7 /* HomeModel.swift */,
+				F9F1D87D22FE2D0D0089CEB7 /* HomeElement.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		F9F1D87122FE2B570089CEB7 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D84022FE21610089CEB7 /* HomeViewController.swift */,
+				F9159FB122FE43120066E1A1 /* HomeViewCell.swift */,
+				F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		F9F1D87222FE2B820089CEB7 /* HomePresenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D87322FE2B9B0089CEB7 /* HomePresenter.swift */,
+			);
+			path = HomePresenter;
+			sourceTree = "<group>";
+		};
+		F9F1D87522FE2BD40089CEB7 /* HomeRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D87622FE2BE00089CEB7 /* HomeRouter.swift */,
+			);
+			path = HomeRouter;
+			sourceTree = "<group>";
+		};
+		F9F1D87822FE2C310089CEB7 /* HomeInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D87922FE2C410089CEB7 /* HomeInteractor.swift */,
+			);
+			path = HomeInteractor;
+			sourceTree = "<group>";
+		};
+		F9F1D87F22FE2DB20089CEB7 /* HomeBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F9F1D88022FE2DC30089CEB7 /* HomeModuleBuilder.swift */,
+			);
+			path = HomeBuilder;
+			sourceTree = "<group>";
+		};
+		F9F1D88222FE2EDD0089CEB7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F9159FB522FE44680066E1A1 /* IBKit */,
+				F9F1D88322FE2EEE0089CEB7 /* Extensions */,
+				F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		F9F1D88322FE2EEE0089CEB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */,
+				F9F1D88422FE2EFA0089CEB7 /* UIStoryboardExtension.swift */,
+				F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */,
+				F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +322,7 @@
 				TargetAttributes = {
 					F9F1D83A22FE21610089CEB7 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					F9F1D84E22FE21630089CEB7 = {
 						CreatedOnToolsVersion = 10.3;
@@ -211,6 +341,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = F9F1D83222FE21610089CEB7;
 			productRefGroup = F9F1D83C22FE21610089CEB7 /* Products */;
@@ -231,7 +362,8 @@
 			files = (
 				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
 				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
-				F9F1D84422FE21610089CEB7 /* Main.storyboard in Resources */,
+				F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */,
+				F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +388,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F1D84122FE21610089CEB7 /* ViewController.swift in Sources */,
+				F9F1D87422FE2B9B0089CEB7 /* HomePresenter.swift in Sources */,
+				F9159FB722FE44740066E1A1 /* IBView.swift in Sources */,
+				F9F1D87722FE2BE00089CEB7 /* HomeRouter.swift in Sources */,
+				F9F1D87E22FE2D0D0089CEB7 /* HomeElement.swift in Sources */,
+				F9F1D87C22FE2CC10089CEB7 /* HomeModel.swift in Sources */,
+				F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */,
+				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
+				F9159FB222FE43120066E1A1 /* HomeViewCell.swift in Sources */,
+				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
+				F9F1D84122FE21610089CEB7 /* HomeViewController.swift in Sources */,
+				F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */,
+				F9F1D87A22FE2C410089CEB7 /* HomeInteractor.swift in Sources */,
+				F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */,
 				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,18 +437,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F9F1D84222FE21610089CEB7 /* Main.storyboard */ = {
+		F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9800B7722FE68310078EAC0 /* es */,
+			);
+			name = HomeModuleStrings.strings;
+			sourceTree = "<group>";
+		};
+		F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F9F1D84322FE21610089CEB7 /* Base */,
+				F9F1D86F22FE2A130089CEB7 /* es */,
 			);
-			name = Main.storyboard;
+			name = HomeModule.storyboard;
 			sourceTree = "<group>";
 		};
 		F9F1D84722FE21630089CEB7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F9F1D84822FE21630089CEB7 /* Base */,
+				F9F1D87022FE2A140089CEB7 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +532,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -435,13 +591,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YP435FQCS6;
 				INFOPLIST_FILE = "AndrosCodemo CV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -453,13 +610,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YP435FQCS6;
 				INFOPLIST_FILE = "AndrosCodemo CV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "hxcode.AndrosCodemo-CV";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

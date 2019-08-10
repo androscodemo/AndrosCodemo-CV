@@ -1,0 +1,15 @@
+/* 
+  HomeModuleStrings.strings
+  AndrosCodemo CV
+
+  Created by Andros Codemo on 8/9/19.
+  Copyright © 2019 Andros Codemo. All rights reserved.
+*/
+
+"Contact"              = "Contacto";
+"Welcome"              = "Bienvenido";
+"About this project"   = "Sobre este proyecto";
+"Past experience"      = "Experiencia profesional";
+"Professional summary" = "Resumen profesional";
+"Personal information" = "Información personal";
+"Topics of knowledge"  = "Áreas de conocimiento";
