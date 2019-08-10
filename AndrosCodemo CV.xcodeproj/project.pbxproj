@@ -169,6 +169,53 @@
 			path = PersonalInformationBuilder;
 			sourceTree = "<group>";
 		};
+		F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9C67BB122FF403600753D99 /* ATPBuilder */,
+				F9C67BB022FF402B00753D99 /* ATPRouter */,
+				F9C67BAF22FF402000753D99 /* ATPInteractor */,
+				F9C67BAE22FF400E00753D99 /* ATPPresenter */,
+				F9C67BAD22FF3FF800753D99 /* ATPView */,
+			);
+			path = AboutThisProjectModule;
+			sourceTree = "<group>";
+		};
+		F9C67BAD22FF3FF800753D99 /* ATPView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATPView;
+			sourceTree = "<group>";
+		};
+		F9C67BAE22FF400E00753D99 /* ATPPresenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATPPresenter;
+			sourceTree = "<group>";
+		};
+		F9C67BAF22FF402000753D99 /* ATPInteractor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATPInteractor;
+			sourceTree = "<group>";
+		};
+		F9C67BB022FF402B00753D99 /* ATPRouter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATPRouter;
+			sourceTree = "<group>";
+		};
+		F9C67BB122FF403600753D99 /* ATPBuilder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ATPBuilder;
+			sourceTree = "<group>";
+		};
 		F9F1D83222FE21610089CEB7 = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +283,7 @@
 		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */,
 				F9FC342122FE72FB0029C067 /* PersonalInformationModule */,
 				F9F1D86C22FE25A60089CEB7 /* HomeModule */,
 			);

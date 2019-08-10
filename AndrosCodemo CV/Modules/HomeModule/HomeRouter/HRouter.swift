@@ -32,13 +32,18 @@ class HRouter {
                            .pushViewController(viewController,
                                                animated: true)
     }
+    private func localizedTitle(_ title: String) -> String {
+        return  NSLocalizedString(title,
+                                  tableName: "HomeModuleStrings",
+                                  comment  : "")
+    }
     
 }
 
 extension HRouter: HRouting {
     
     func goToPersonalInformation(withTitle title: String) {
-        push(viewController: PIModuleBuilder().build(withTitle: title))
+        push(viewController: PIModuleBuilder().build(withTitle: localizedTitle(title)))
     }
     
     func goToProfessionalSummary(withTitle title: String) {
