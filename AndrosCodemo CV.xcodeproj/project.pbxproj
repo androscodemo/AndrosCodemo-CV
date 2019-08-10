@@ -15,12 +15,12 @@
 		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
 		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
 		F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749AE22FE876600B14AB1 /* IBImageView.swift */; };
-		F96749B722FE985B00B14AB1 /* PersonalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F96749B522FE985B00B14AB1 /* PersonalInformation.storyboard */; };
 		F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */; };
 		F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */; };
 		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
 		F98BA51822FE742D002737DE /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51722FE742D002737DE /* PIViewController.swift */; };
 		F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51922FE74B4002737DE /* PIPresenter.swift */; };
+		F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */; };
 		F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */; };
 		F9F1D84122FE21610089CEB7 /* HViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* HViewController.swift */; };
 		F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */; };
@@ -63,13 +63,13 @@
 		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		F96749AE22FE876600B14AB1 /* IBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
-		F96749B622FE985B00B14AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalInformation.storyboard; sourceTree = "<group>"; };
-		F96749B822FE988300B14AB1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonalInformation.strings; sourceTree = "<group>"; };
 		F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationModel.swift; sourceTree = "<group>"; };
 		F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIBuilder.swift; sourceTree = "<group>"; };
 		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
 		F98BA51722FE742D002737DE /* PIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIViewController.swift; sourceTree = "<group>"; };
 		F98BA51922FE74B4002737DE /* PIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPresenter.swift; sourceTree = "<group>"; };
+		F9D1AED122FF388E00E93CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalInformation.storyboard; sourceTree = "<group>"; };
+		F9D1AED422FF38A200E93CD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonalInformation.strings; sourceTree = "<group>"; };
 		F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AndrosCodemo CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F1D84022FE21610089CEB7 /* HViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HViewController.swift; sourceTree = "<group>"; };
@@ -131,8 +131,8 @@
 		F98BA51022FE73A2002737DE /* PersonalInformationView */ = {
 			isa = PBXGroup;
 			children = (
+				F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */,
 				F98BA51722FE742D002737DE /* PIViewController.swift */,
-				F96749B522FE985B00B14AB1 /* PersonalInformation.storyboard */,
 			);
 			path = PersonalInformationView;
 			sourceTree = "<group>";
@@ -433,7 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F96749B722FE985B00B14AB1 /* PersonalInformation.storyboard in Resources */,
+				F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */,
 				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
 				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
 				F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */,
@@ -518,21 +518,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F96749B522FE985B00B14AB1 /* PersonalInformation.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F96749B622FE985B00B14AB1 /* Base */,
-				F96749B822FE988300B14AB1 /* es */,
-			);
-			name = PersonalInformation.storyboard;
-			sourceTree = "<group>";
-		};
 		F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F9800B7722FE68310078EAC0 /* es */,
 			);
 			name = HomeModuleStrings.strings;
+			sourceTree = "<group>";
+		};
+		F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9D1AED122FF388E00E93CD6 /* Base */,
+				F9D1AED422FF38A200E93CD6 /* es */,
+			);
+			name = PersonalInformation.storyboard;
 			sourceTree = "<group>";
 		};
 		F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */ = {
