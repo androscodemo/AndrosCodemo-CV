@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Senior Mobile Engineer Coding Test"; ObjectID = "6fn-DK-6m8"; */
+"6fn-DK-6m8.text" = "Prueba de Código para Senior Mobile Engineer";
+
+/* Class = "UILabel"; text = "-Contact information"; ObjectID = "Iiv-2k-XHO"; */
+"Iiv-2k-XHO.text" = "-Información de Contacto";
+
+/* Class = "UILabel"; text = "The app consist in my own CV app."; ObjectID = "MnO-hO-0Rv"; */
+"MnO-hO-0Rv.text" = "La aplicación consiste en implementar mi propio currículum.";
+
+/* Class = "UILabel"; text = "-Topics of knowledge."; ObjectID = "QFd-Uu-Thu"; */
+"QFd-Uu-Thu.text" = "-Áreas de conocimiento.";
+
+/* Class = "UILabel"; text = "In this coding test I wrote a native mobile application using Swift 4.2 and targeting iOS 10."; ObjectID = "TJM-fE-eDH"; */
+"TJM-fE-eDH.text" = "En esta prueba de código programé una aplicación móvil nativa usando Swift 4.2 y teniendo como objetivo mínimo iOS 10.";
+
+/* Class = "UILabel"; text = "-Professional summary."; ObjectID = "afx-QO-dkk"; */
+"afx-QO-dkk.text" = "-Resumen profesional.";
+
+/* Class = "UILabel"; text = "-Past experience."; ObjectID = "e4L-D4-on4"; */
+"e4L-D4-on4.text" = "-Experiencia profesional.";
+
+/* Class = "UILabel"; text = "https://github.com/androscodemo/AndrosCodemo-CV.git"; ObjectID = "fcX-NB-tcg"; */
+"fcX-NB-tcg.text" = "https://github.com/androscodemo/AndrosCodemo-CV.git";
+
+/* Class = "UILabel"; text = "-Personal information."; ObjectID = "i1K-He-lip"; */
+"i1K-He-lip.text" = "-Información personal.";
+
+/* Class = "UILabel"; text = "I implemented this code using VIPER software design and UnitTest for every module."; ObjectID = "yRb-wj-5lu"; */
+"yRb-wj-5lu.text" = "Implementé este código usando el diseño de software VIPER y UnitTest en cada módulo.";

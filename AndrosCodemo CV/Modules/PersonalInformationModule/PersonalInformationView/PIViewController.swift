@@ -34,7 +34,7 @@ class PIViewController: UIViewController {
     @IBOutlet private weak var lblDependants: UILabel!
     
     //MARK:Properties
-    public var presenter: PIPresenter!
+    public var presenter: PIPresentation!
     
     //MARK:Lifecycle
     override func viewDidLoad() {
