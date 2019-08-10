@@ -63,7 +63,7 @@ extension HRouter: HRouting {
     }
     
     func goToAboutThisProject(withTitle title: String) {
-        push(viewController: UIViewController())
+        push(viewController: ATPBuilder().build(withTitle: localizedTitle(title)))
     }
     
 }
