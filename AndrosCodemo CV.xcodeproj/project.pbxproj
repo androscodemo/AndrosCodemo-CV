@@ -13,7 +13,6 @@
 		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
 		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
 		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
-		F9A2538C22FE6F2B00B09EC6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2538B22FE6F2B00B09EC6 /* BaseNavigationController.swift */; };
 		F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */; };
 		F9F1D84122FE21610089CEB7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F1D84022FE21610089CEB7 /* HomeViewController.swift */; };
 		F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */; };
@@ -54,7 +53,6 @@
 		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
-		F9A2538B22FE6F2B00B09EC6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		F9F1D83B22FE21610089CEB7 /* AndrosCodemo CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AndrosCodemo CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F1D83E22FE21610089CEB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F1D84022FE21610089CEB7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 		F9F1D87122FE2B570089CEB7 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
-				F9A2538B22FE6F2B00B09EC6 /* BaseNavigationController.swift */,
 				F9F1D84022FE21610089CEB7 /* HomeViewController.swift */,
 				F9159FB122FE43120066E1A1 /* HomeViewCell.swift */,
 				F9F1D84222FE21610089CEB7 /* HomeModule.storyboard */,
@@ -399,7 +396,6 @@
 				F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HomeViewCell.swift in Sources */,
-				F9A2538C22FE6F2B00B09EC6 /* BaseNavigationController.swift in Sources */,
 				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
 				F9F1D84122FE21610089CEB7 /* HomeViewController.swift in Sources */,
 				F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */,
