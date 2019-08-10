@@ -1,5 +1,5 @@
 //
-//  HomeViewCell.swift
+//  HTableViewCell.swift
 //  AndrosCodemo CV
 //
 //  Created by Andros Codemo on 8/9/19.
@@ -8,7 +8,7 @@
 
 import UIKit.UITableViewCell
 
-class HomeViewCell: UITableViewCell {
+class HTableViewCell: UITableViewCell {
     
     @IBOutlet private weak var container: UIView!
     @IBOutlet private weak var imvIcon  : UIImageView!
