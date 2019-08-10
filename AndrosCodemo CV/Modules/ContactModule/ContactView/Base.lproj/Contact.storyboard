@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Oyw-9v-0XQ">
+            <objects>
+                <viewController storyboardIdentifier="CViewController" id="yQT-d6-9yw" customClass="CViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vnY-89-mBK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cellphone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ip2-g7-Thg">
+                                <rect key="frame" x="32" y="52" width="57" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(244) 786 3453" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScI-hK-bmd">
+                                <rect key="frame" x="36" y="70.5" width="123" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cf1-mt-Lxj">
+                                <rect key="frame" x="32" y="211" width="30.5" height="14.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="androscodemo@live.com.mx" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTK-hQ-YcQ">
+                                <rect key="frame" x="36" y="229.5" width="221" height="20.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="dVz-mc-X1V">
+                                <rect key="frame" x="32" y="115" width="256" height="64"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZN8-3k-5jM" customClass="IBButton" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="64" height="64"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZN8-3k-5jM" secondAttribute="height" multiplier="1:1" id="u2V-Xr-Njd"/>
+                                        </constraints>
+                                        <state key="normal" image="CCall"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.34999999999999998"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="callTouchedUpInside" destination="yQT-d6-9yw" eventType="touchUpInside" id="tRq-N2-dZh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGE-Nx-t5h" customClass="IBButton" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                        <rect key="frame" x="96" y="0.0" width="64" height="64"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="CSendSMS"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.34999999999999998"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="smsTouchedUpInside" destination="yQT-d6-9yw" eventType="touchUpInside" id="4tn-Lo-dBv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HxP-dN-fap" customClass="IBButton" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                        <rect key="frame" x="192" y="0.0" width="64" height="64"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="CSendWhatsapp"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.34999999999999998"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                                <real key="value" value="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="whatsappTouchedUpInside" destination="yQT-d6-9yw" eventType="touchUpInside" id="OeS-kW-UF4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogh-1c-urV" customClass="IBButton" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                <rect key="frame" x="128" y="274" width="64" height="64"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ogh-1c-urV" secondAttribute="height" multiplier="1:1" id="qJp-iT-iUe"/>
+                                </constraints>
+                                <state key="normal" image="CSendMail"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.34999999999999998"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowBlur">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="emailTouchedUpInside" destination="yQT-d6-9yw" eventType="touchUpInside" id="3xu-uS-UAy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ScI-hK-bmd" firstAttribute="leading" secondItem="ip2-g7-Thg" secondAttribute="leading" constant="4" id="0Qu-yj-34t"/>
+                            <constraint firstItem="ogh-1c-urV" firstAttribute="width" secondItem="ZN8-3k-5jM" secondAttribute="width" id="7rT-8H-Ich"/>
+                            <constraint firstItem="lRo-DX-TnG" firstAttribute="trailing" secondItem="dVz-mc-X1V" secondAttribute="trailing" constant="32" id="GZ2-dm-mYT"/>
+                            <constraint firstItem="wTK-hQ-YcQ" firstAttribute="leading" secondItem="cf1-mt-Lxj" secondAttribute="leading" constant="4" id="O6a-bM-jCV"/>
+                            <constraint firstItem="lRo-DX-TnG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ScI-hK-bmd" secondAttribute="trailing" constant="32" id="ObF-6N-Gus"/>
+                            <constraint firstItem="lRo-DX-TnG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cf1-mt-Lxj" secondAttribute="trailing" constant="32" id="P6o-jr-XC1"/>
+                            <constraint firstItem="lRo-DX-TnG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ip2-g7-Thg" secondAttribute="trailing" constant="32" id="U1Q-Rs-9a7"/>
+                            <constraint firstItem="cf1-mt-Lxj" firstAttribute="top" secondItem="dVz-mc-X1V" secondAttribute="bottom" constant="32" id="Vs8-wL-Psc"/>
+                            <constraint firstItem="wTK-hQ-YcQ" firstAttribute="top" secondItem="cf1-mt-Lxj" secondAttribute="bottom" constant="4" id="WxI-8A-9Jp"/>
+                            <constraint firstItem="ip2-g7-Thg" firstAttribute="top" secondItem="lRo-DX-TnG" secondAttribute="top" constant="32" id="Z9l-dp-VQf"/>
+                            <constraint firstItem="wTK-hQ-YcQ" firstAttribute="leading" secondItem="lRo-DX-TnG" secondAttribute="leading" constant="36" id="aol-HY-doS"/>
+                            <constraint firstItem="ogh-1c-urV" firstAttribute="top" secondItem="wTK-hQ-YcQ" secondAttribute="bottom" constant="24" id="bnj-9s-do5"/>
+                            <constraint firstItem="dVz-mc-X1V" firstAttribute="top" secondItem="ScI-hK-bmd" secondAttribute="bottom" constant="24" id="e2r-jL-ZNu"/>
+                            <constraint firstItem="ScI-hK-bmd" firstAttribute="leading" secondItem="lRo-DX-TnG" secondAttribute="leading" constant="36" id="gsQ-Sf-faV"/>
+                            <constraint firstItem="dVz-mc-X1V" firstAttribute="leading" secondItem="lRo-DX-TnG" secondAttribute="leading" constant="32" id="lrb-Z6-su2"/>
+                            <constraint firstItem="lRo-DX-TnG" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="wTK-hQ-YcQ" secondAttribute="trailing" constant="32" id="o51-Ua-S7F"/>
+                            <constraint firstItem="ScI-hK-bmd" firstAttribute="top" secondItem="ip2-g7-Thg" secondAttribute="bottom" constant="4" id="r6U-4I-JaX"/>
+                            <constraint firstItem="ogh-1c-urV" firstAttribute="centerX" secondItem="vnY-89-mBK" secondAttribute="centerX" id="rxv-1J-ED4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lRo-DX-TnG"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblCellphone" destination="ScI-hK-bmd" id="MD0-yN-6Tw"/>
+                        <outlet property="lblEmail" destination="wTK-hQ-YcQ" id="9x1-UW-dxB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HU4-GC-QdP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="50"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CCall" width="33" height="33"/>
+        <image name="CSendMail" width="33" height="33"/>
+        <image name="CSendSMS" width="33" height="33"/>
+        <image name="CSendWhatsapp" width="33" height="33"/>
+    </resources>
+</document>
