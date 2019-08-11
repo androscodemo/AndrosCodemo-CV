@@ -9,8 +9,22 @@
 "Contact"              = "Contacto";
 "Welcome"              = "Bienvenido";
 "Present"              = "Actualidad";
+"years old"            = "años de edad";
+"Free union"           = "Unión libre";
+"My two daughters"     = "Mis dos hijas";
 "About this project"   = "Sobre este proyecto";
 "Past experience"      = "Experiencia profesional";
 "Professional summary" = "Resumen profesional";
 "Personal information" = "Información personal";
 "Topics of knowledge"  = "Áreas de conocimiento";
+
+"Computer Science Engineer" = "Ingeniero en Ciencias de la Computación";
+"The only iOS developer. I was in charge of the development  and deployment of the applications to TestFlight. Mostly worked with UIKit, Autolayout, CoreBluetooth and Alamofire." = "Único desarrollador de iOS. Estaba a cargo del desarrollo y la liberacion de las aplicaciones en la AppStore. Trabajé principalmente con los Frameworks UIKit, Autolayour, CoreBluetooth y Alamofire.";
+
+"In charge of the software development. Developed an iPad application to control a neurostimulation room over Bluetooth." = "A cargo del desarrollo de software. Desarrollé una aplicación para iPad que controla un cuarto de neuroestimulación a través de Bluethoot.";
+
+"Part of a small development team. Mostly worked with UIKit, Autolayout, Alamofire, CoreData, CoreLocation, AVFoundation." = "Parte de un pequeño equipo de desarrollo. Trabajé principalmente con los Frameworks UIKit, Autolayout, Alamofire, CoreData, CoreLocation, AVFoundation.";
+
+"Part of a big development team. I am in charge of the development and validation of the new application. Also I help the team to get used to the programming language Swift." = "Parte de un equipo de desarrollo grande. Estoy a cargo del desarrollo y validación de la nueva aplicación. También ayudo al equipo a con los problemas que llegan a tener con el lenguaje de programación Swift.";
+
+"Graduated from the Benemérita Universidad Autónoma de Puebla (BUAP) as a Computer Science Engineer.\n\nI worked on some StartUps where I managed to familiarize myself with the Swift language and Apple's guidelines, both for the development and deploiment of applications.\n\nAs the only developer in some of those StartUps I had the opportunity to work with many of the Frameworks that Apple has to offer.\n\nUpon entering Banco Azteca I managed to share my development experience with the iOS team and substantially improved my skills as a leader." = "Egresado de la Benemérita Universidad Autónoma de Puebla (BUAP) como Ingeniero en Ciencias de la Computación\n\nTrabajé en algunas StartUps donde logré familiarizarme con el lenguaje Swift y los lineamientos de Apple, tanto para el desarrollo de aplicaciones como para su despliegue.\n\nComo único desarrollador en algunas de esas StartUps tuve la oportunidad de trabajar con muchos de los Frameworks que Apple ofrece.\n\nAl entrar a Banco Azteca logré compartir mi experiencia de desarrollo con el equipo de iOS y mejoré sustancialmente mis habilidades como líder.";;

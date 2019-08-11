@@ -17,7 +17,6 @@
 		F91695E422FFB4A000BF8B1B /* PETableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91695E322FFB4A000BF8B1B /* PETableCell.swift */; };
 		F91695E622FFB78900BF8B1B /* PastExperienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91695E522FFB78900BF8B1B /* PastExperienceModel.swift */; };
 		F91CC82A22FF75C100C237A8 /* ContactBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CC82922FF75C100C237A8 /* ContactBuilder.swift */; };
-		F926C1BC22FF83E600BB3E4B /* ProfessionalSummary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */; };
 		F926C1BE22FF896000BB3E4B /* PSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1BD22FF896000BB3E4B /* PSViewController.swift */; };
 		F926C1C122FF8A3300BB3E4B /* PSPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C022FF8A3300BB3E4B /* PSPresenter.swift */; };
 		F926C1C422FF8AFC00BB3E4B /* PSInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C322FF8AFC00BB3E4B /* PSInteractor.swift */; };
@@ -34,8 +33,12 @@
 		F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */; };
 		F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */; };
 		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
+		F98705FC22FFFAD20041367D /* PastExperienceModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98705FB22FFFAD20041367D /* PastExperienceModuleTest.swift */; };
+		F98705FE22FFFD850041367D /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98705FD22FFFD850041367D /* StringExtension.swift */; };
+		F9870604230000AF0041367D /* ProfessionalSummary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9870606230000AF0041367D /* ProfessionalSummary.storyboard */; };
 		F98BA51822FE742D002737DE /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51722FE742D002737DE /* PIViewController.swift */; };
 		F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51922FE74B4002737DE /* PIPresenter.swift */; };
+		F999664122FFF2D30065B728 /* HomeModuleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F999664022FFF2D30065B728 /* HomeModuleTest.swift */; };
 		F9C2E53A22FF9FCC005BE0F4 /* TOKPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53922FF9FCC005BE0F4 /* TOKPresenter.swift */; };
 		F9C2E53C22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */; };
 		F9C2E53F22FFA138005BE0F4 /* TOKInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53E22FFA138005BE0F4 /* TOKInteractor.swift */; };
@@ -70,6 +73,16 @@
 		F9FDBD2622FF5BFE00F759DD /* ATPBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FDBD2522FF5BFE00F759DD /* ATPBuilder.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F921374E22FFE7BA004FDDD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9F1D83322FE21610089CEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9F1D83A22FE21610089CEB7;
+			remoteInfo = AndrosCodemoCV;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		F90F955922FE7ACF00B5382F /* PIInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIInteractor.swift; sourceTree = "<group>"; };
 		F90F955B22FE7B0B00B5382F /* PIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIRouter.swift; sourceTree = "<group>"; };
@@ -81,7 +94,8 @@
 		F91695E322FFB4A000BF8B1B /* PETableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETableCell.swift; sourceTree = "<group>"; };
 		F91695E522FFB78900BF8B1B /* PastExperienceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExperienceModel.swift; sourceTree = "<group>"; };
 		F91CC82922FF75C100C237A8 /* ContactBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBuilder.swift; sourceTree = "<group>"; };
-		F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfessionalSummary.storyboard; sourceTree = "<group>"; };
+		F921374922FFE7BA004FDDD7 /* ACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F921374D22FFE7BA004FDDD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F926C1BD22FF896000BB3E4B /* PSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSViewController.swift; sourceTree = "<group>"; };
 		F926C1C022FF8A3300BB3E4B /* PSPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPresenter.swift; sourceTree = "<group>"; };
 		F926C1C322FF8AFC00BB3E4B /* PSInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSInteractor.swift; sourceTree = "<group>"; };
@@ -98,8 +112,13 @@
 		F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationModel.swift; sourceTree = "<group>"; };
 		F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIBuilder.swift; sourceTree = "<group>"; };
 		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
+		F98705FB22FFFAD20041367D /* PastExperienceModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExperienceModuleTest.swift; sourceTree = "<group>"; };
+		F98705FD22FFFD850041367D /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F9870605230000AF0041367D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ProfessionalSummary.storyboard; sourceTree = "<group>"; };
+		F9870608230000BB0041367D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/ProfessionalSummary.strings; sourceTree = "<group>"; };
 		F98BA51722FE742D002737DE /* PIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIViewController.swift; sourceTree = "<group>"; };
 		F98BA51922FE74B4002737DE /* PIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPresenter.swift; sourceTree = "<group>"; };
+		F999664022FFF2D30065B728 /* HomeModuleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModuleTest.swift; sourceTree = "<group>"; };
 		F9C2E53922FF9FCC005BE0F4 /* TOKPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKPresenter.swift; sourceTree = "<group>"; };
 		F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsOfKnowledgeModel.swift; sourceTree = "<group>"; };
 		F9C2E53E22FFA138005BE0F4 /* TOKInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKInteractor.swift; sourceTree = "<group>"; };
@@ -109,7 +128,6 @@
 		F9C342AA22FF9CBC00DAEE0E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TopicsOfKnowledge.strings; sourceTree = "<group>"; };
 		F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKViewController.swift; sourceTree = "<group>"; };
 		F9D1AED122FF388E00E93CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalInformation.storyboard; sourceTree = "<group>"; };
-		F9D1AED422FF38A200E93CD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonalInformation.strings; sourceTree = "<group>"; };
 		F9E5D71222FF6B0F00554A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
 		F9E5D71522FF6B1C00554A10 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Contact.strings; sourceTree = "<group>"; };
 		F9E5D71622FF6CAA00554A10 /* CViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +161,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F921374622FFE7BA004FDDD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F1D83822FE21610089CEB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,6 +209,24 @@
 			path = IBKit;
 			sourceTree = "<group>";
 		};
+		F921374A22FFE7BA004FDDD7 /* ACTests */ = {
+			isa = PBXGroup;
+			children = (
+				F999664522FFFA550065B728 /* PastExperienceModule */,
+				F921375322FFE972004FDDD7 /* HomeModule */,
+				F921374D22FFE7BA004FDDD7 /* Info.plist */,
+			);
+			path = ACTests;
+			sourceTree = "<group>";
+		};
+		F921375322FFE972004FDDD7 /* HomeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F999664022FFF2D30065B728 /* HomeModuleTest.swift */,
+			);
+			path = HomeModule;
+			sourceTree = "<group>";
+		};
 		F926C1B922FF83B700BB3E4B /* ProfessionalSummaryModule */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,7 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				F926C1BD22FF896000BB3E4B /* PSViewController.swift */,
-				F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */,
+				F9870606230000AF0041367D /* ProfessionalSummary.storyboard */,
 			);
 			path = PSView;
 			sourceTree = "<group>";
@@ -353,6 +396,14 @@
 			path = PersonalInformationBuilder;
 			sourceTree = "<group>";
 		};
+		F999664522FFFA550065B728 /* PastExperienceModule */ = {
+			isa = PBXGroup;
+			children = (
+				F98705FB22FFFAD20041367D /* PastExperienceModuleTest.swift */,
+			);
+			path = PastExperienceModule;
+			sourceTree = "<group>";
+		};
 		F9C2E53822FF9FBD005BE0F4 /* TOKPresenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -474,6 +525,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F1D83D22FE21610089CEB7 /* AndrosCodemoCV */,
+				F921374A22FFE7BA004FDDD7 /* ACTests */,
 				F9F1D83C22FE21610089CEB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -482,6 +534,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F1D83B22FE21610089CEB7 /* AndrosCodemoCV.app */,
+				F921374922FFE7BA004FDDD7 /* ACTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -598,6 +651,7 @@
 				F9F1D88422FE2EFA0089CEB7 /* UIStoryboardExtension.swift */,
 				F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */,
 				F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */,
+				F98705FD22FFFD850041367D /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -617,6 +671,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F921374822FFE7BA004FDDD7 /* ACTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F921375222FFE7BA004FDDD7 /* Build configuration list for PBXNativeTarget "ACTests" */;
+			buildPhases = (
+				F921374522FFE7BA004FDDD7 /* Sources */,
+				F921374622FFE7BA004FDDD7 /* Frameworks */,
+				F921374722FFE7BA004FDDD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F921374F22FFE7BA004FDDD7 /* PBXTargetDependency */,
+			);
+			name = ACTests;
+			productName = ACTests;
+			productReference = F921374922FFE7BA004FDDD7 /* ACTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		F9F1D83A22FE21610089CEB7 /* AndrosCodemoCV */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F1D86322FE21630089CEB7 /* Build configuration list for PBXNativeTarget "AndrosCodemoCV" */;
@@ -640,10 +712,15 @@
 		F9F1D83322FE21610089CEB7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "Andros Codemo";
 				TargetAttributes = {
+					F921374822FFE7BA004FDDD7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F9F1D83A22FE21610089CEB7;
+					};
 					F9F1D83A22FE21610089CEB7 = {
 						CreatedOnToolsVersion = 10.3;
 						LastSwiftMigration = 1030;
@@ -665,16 +742,24 @@
 			projectRoot = "";
 			targets = (
 				F9F1D83A22FE21610089CEB7 /* AndrosCodemoCV */,
+				F921374822FFE7BA004FDDD7 /* ACTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F921374722FFE7BA004FDDD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F1D83922FE21610089CEB7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F926C1BC22FF83E600BB3E4B /* ProfessionalSummary.storyboard in Resources */,
+				F9870604230000AF0041367D /* ProfessionalSummary.storyboard in Resources */,
 				F9FB012722FF4D3400CAC841 /* AboutThisProject.storyboard in Resources */,
 				F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */,
 				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
@@ -690,6 +775,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F921374522FFE7BA004FDDD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F999664122FFF2D30065B728 /* HomeModuleTest.swift in Sources */,
+				F98705FC22FFFAD20041367D /* PastExperienceModuleTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F9F1D83722FE21610089CEB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -718,6 +812,7 @@
 				F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */,
 				F9C2E54522FFA34F005BE0F4 /* TOKBuilder.swift in Sources */,
 				F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */,
+				F98705FE22FFFD850041367D /* StringExtension.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
 				F94BB41E22FFAE8300AE062A /* PEPresenter.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HTableViewCell.swift in Sources */,
@@ -750,6 +845,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		F921374F22FFE7BA004FDDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9F1D83A22FE21610089CEB7 /* AndrosCodemoCV */;
+			targetProxy = F921374E22FFE7BA004FDDD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */ = {
 			isa = PBXVariantGroup;
@@ -757,6 +860,15 @@
 				F9800B7722FE68310078EAC0 /* es */,
 			);
 			name = HomeModuleStrings.strings;
+			sourceTree = "<group>";
+		};
+		F9870606230000AF0041367D /* ProfessionalSummary.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9870605230000AF0041367D /* Base */,
+				F9870608230000BB0041367D /* es */,
+			);
+			name = ProfessionalSummary.storyboard;
 			sourceTree = "<group>";
 		};
 		F9C342A822FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard */ = {
@@ -772,7 +884,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				F9D1AED122FF388E00E93CD6 /* Base */,
-				F9D1AED422FF38A200E93CD6 /* es */,
 			);
 			name = PersonalInformation.storyboard;
 			sourceTree = "<group>";
@@ -816,6 +927,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F921375022FFE7BA004FDDD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = ACTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hxcode.ACTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndrosCodemoCV.app/AndrosCodemoCV";
+			};
+			name = Debug;
+		};
+		F921375122FFE7BA004FDDD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YP435FQCS6;
+				INFOPLIST_FILE = ACTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hxcode.ACTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndrosCodemoCV.app/AndrosCodemoCV";
+			};
+			name = Release;
+		};
 		F9F1D86122FE21630089CEB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -949,7 +1102,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hxcode.AndrosCodemoCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -968,13 +1121,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hxcode.AndrosCodemoCV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F921375222FFE7BA004FDDD7 /* Build configuration list for PBXNativeTarget "ACTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F921375022FFE7BA004FDDD7 /* Debug */,
+				F921375122FFE7BA004FDDD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F9F1D83622FE21610089CEB7 /* Build configuration list for PBXProject "AndrosCodemoCV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

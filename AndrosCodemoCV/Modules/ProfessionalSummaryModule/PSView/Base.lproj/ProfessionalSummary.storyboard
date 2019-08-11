@@ -13,20 +13,20 @@
         <!--View Controller-->
         <scene sceneID="d07-y9-LyT">
             <objects>
-                <viewController storyboardIdentifier="PSViewController" id="Bbs-so-V8E" customClass="PSViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="35O-CA-VCr" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                <viewController storyboardIdentifier="PSViewController" id="Bbs-so-V8E" customClass="PSViewController" customModule="AndrosCodemoCV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="35O-CA-VCr" customClass="IBView" customModule="AndrosCodemoCV" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="poW-zF-42M">
                                 <rect key="frame" x="32" y="52" width="256" height="484"/>
-                                <mutableString key="text">Egresado de la Benemérita Universidad Autónoma de Puebla (BUAP) como Ingeniero en Ciencias de la Computación
-
-Trabajé en algunas StartUps donde logré familiarizarme con el lenguaje Swift y los lineamientos de Apple, tanto para el desarrollo de aplicaciones como para su despliegue.
-
-Como único desarrollador en algunas de esas StartUps tuve la oportunidad de trabajar con muchos de los Frameworks que Apple ofrece.
-
-Al entrar a Banco Azteca logré compartir mi experiencia de desarrollo con el equipo de iOS y mejoré sustancialmente mis habilidades como líder.</mutableString>
+                                <mutableString key="text">Graduated from the Benemérita Universidad Autónoma de Puebla (BUAP) as a Computer Science Engineer.
+        
+I worked on some StartUps where I managed to familiarize myself with the Swift language and Apple's guidelines, both for the development and deploiment of applications.
+        
+As the only developer in some of those StartUps I had the opportunity to work with many of the Frameworks that Apple has to offer.
+        
+Upon entering Banco Azteca I managed to share my development experience with the iOS team and substantially improved my skills as a leader.</mutableString>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

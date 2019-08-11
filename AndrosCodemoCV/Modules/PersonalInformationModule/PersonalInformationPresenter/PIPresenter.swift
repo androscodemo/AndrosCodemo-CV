@@ -6,6 +6,8 @@
 //  Copyright © 2019 Andros Codemo. All rights reserved.
 //
 
+import Foundation
+
 protocol PIPresentation {
     
     func viewDidLoad() -> Void
@@ -32,12 +34,12 @@ extension PIPresenter: PIPresentation {
         let personalInformation = interactor.fetchPersonalInformation()
         view?.setPicture      (personalInformation.imageName)
         view?.setName         (personalInformation.name)
-        view?.setAge          (personalInformation.age.description)
+        view?.setAge          (personalInformation.age.description + " " + "years old".localized)
         view?.setBirthdate    (personalInformation.dateString)
         view?.setBirthplace   (personalInformation.birthplace)
-        view?.setEducation    (personalInformation.education)
-        view?.setMaritalStatus(personalInformation.maritalStatus)
-        view?.setDependants   (personalInformation.dependants)
+        view?.setEducation    (personalInformation.education.localized)
+        view?.setMaritalStatus(personalInformation.maritalStatus.localized)
+        view?.setDependants   (personalInformation.dependants.localized)
     }
     
 }

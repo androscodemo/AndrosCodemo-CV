@@ -60,9 +60,7 @@ extension PEPresenter: PEPresenting {
         if let finalDate = element.finalDate {
             dateTemp += formatter.string(from: finalDate)
         } else {
-            dateTemp += NSLocalizedString("Present",
-                                          tableName: "HomeModuleStrings",
-                                          comment  : "")
+            dateTemp += "Present".localized
         }
         cell.setDate(dateTemp)
         cell.setDescription(element.description)

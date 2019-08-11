@@ -13,18 +13,18 @@
         <!--View Controller-->
         <scene sceneID="w6K-dK-3rJ">
             <objects>
-                <viewController storyboardIdentifier="PIViewController" id="gKf-Oi-us1" customClass="PIViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="cG7-GC-V4R" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                <viewController storyboardIdentifier="PIViewController" id="gKf-Oi-us1" customClass="PIViewController" customModule="AndrosCodemoCV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cG7-GC-V4R" customClass="IBView" customModule="AndrosCodemoCV" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="605"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iz4-qn-UJs">
                                 <rect key="frame" x="0.0" y="44" width="320" height="561"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EhA-ln-ZYu" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EhA-ln-ZYu" customClass="IBView" customModule="AndrosCodemoCV" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="164"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PIPicture" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-lY-bpp" customClass="IBImageView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Zt-lY-bpp" customClass="IBImageView" customModule="AndrosCodemoCV" customModuleProvider="target">
                                                 <rect key="frame" x="110" y="32" width="100" height="100"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" secondItem="0Zt-lY-bpp" secondAttribute="height" multiplier="1:1" id="J9y-MS-aG2"/>
@@ -55,8 +55,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Andros Bustamante Codemo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-4h-dI6">
-                                                        <rect key="frame" x="36" y="24.5" width="220" height="31"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05F-4h-dI6">
+                                                        <rect key="frame" x="36" y="24.5" width="0.0" height="31"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -82,8 +82,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28 years old" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIH-Zc-tYz">
-                                                        <rect key="frame" x="36" y="26.5" width="94.5" height="29"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIH-Zc-tYz">
+                                                        <rect key="frame" x="36" y="26.5" width="0.0" height="29"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -104,19 +104,19 @@
                                                 <rect key="frame" x="0.0" y="127" width="320" height="81.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qKe-y4-Vhs">
-                                                        <rect key="frame" x="32" y="8" width="95" height="22.5"/>
+                                                        <rect key="frame" x="32" y="8" width="95" height="14.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="August 22, 1990" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbm-M6-4Sf">
-                                                        <rect key="frame" x="36" y="32.5" width="126" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lbm-M6-4Sf">
+                                                        <rect key="frame" x="36" y="24.5" width="0.0" height="0.0"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Atlixco, Puebla. México" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47l-fF-gDA">
-                                                        <rect key="frame" x="36" y="53" width="176" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47l-fF-gDA">
+                                                        <rect key="frame" x="36" y="24.5" width="0.0" height="49"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -140,13 +140,13 @@
                                                 <rect key="frame" x="0.0" y="208.5" width="320" height="63.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IB-FC-HwD">
-                                                        <rect key="frame" x="32" y="8" width="86" height="23"/>
+                                                        <rect key="frame" x="32" y="8" width="86" height="43.5"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer Science Engineer" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ram-Qa-6fy">
-                                                        <rect key="frame" x="36" y="35" width="213.5" height="20.5"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ram-Qa-6fy">
+                                                        <rect key="frame" x="36" y="55.5" width="0.0" height="0.0"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -172,8 +172,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free union" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0s-tg-fK4">
-                                                        <rect key="frame" x="36" y="26.5" width="80.5" height="29"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p0s-tg-fK4">
+                                                        <rect key="frame" x="36" y="26.5" width="0.0" height="29"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -199,8 +199,8 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My two daughters" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Taw-ng-5uc">
-                                                        <rect key="frame" x="36" y="26.5" width="138" height="29"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Taw-ng-5uc">
+                                                        <rect key="frame" x="36" y="26.5" width="0.0" height="29"/>
                                                         <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -269,7 +269,4 @@
             <point key="canvasLocation" x="-3.75" y="10.56338028169014"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="PIPicture" width="50" height="50"/>
-    </resources>
 </document>

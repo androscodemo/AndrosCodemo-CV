@@ -15,9 +15,7 @@ class HTableViewCell: UITableViewCell {
     @IBOutlet private weak var lblTitle : UILabel!
     
     public func setTitle(_ string: String) {
-        lblTitle.text = NSLocalizedString(string,
-                                          tableName: "HomeModuleStrings",
-                                          comment  : "")
+        lblTitle.text = string.localized
     }
     public func setImage(named name: String) {
         imvIcon.image = UIImage(named: name)

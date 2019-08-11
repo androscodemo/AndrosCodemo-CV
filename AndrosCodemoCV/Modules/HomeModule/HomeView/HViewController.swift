@@ -22,9 +22,7 @@ class HViewController: UITableViewController {
     //MARK:Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = NSLocalizedString("Welcome",
-                                                 tableName: "HomeModuleStrings",
-                                                 comment  : "")
+        navigationItem.title = "Welcome".localized
         presenter.viewDidLoad()
     }
     
