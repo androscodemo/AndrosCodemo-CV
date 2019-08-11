@@ -51,7 +51,7 @@ extension HRouter: HRouting {
     }
     
     func goToTopicsOfKnowledge(withTitle title: String) {
-        push(viewController: UIViewController())
+        push(viewController: TOKBuilder().build(withTitle: localizedTitle(title)))
     }
     
     func goToPastExperience(withTitle title: String) {
