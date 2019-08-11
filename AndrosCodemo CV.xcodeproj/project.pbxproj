@@ -14,6 +14,8 @@
 		F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */; };
 		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
 		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
+		F91695E422FFB4A000BF8B1B /* PETableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91695E322FFB4A000BF8B1B /* PETableCell.swift */; };
+		F91695E622FFB78900BF8B1B /* PastExperienceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91695E522FFB78900BF8B1B /* PastExperienceModel.swift */; };
 		F91CC82A22FF75C100C237A8 /* ContactBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CC82922FF75C100C237A8 /* ContactBuilder.swift */; };
 		F926C1BC22FF83E600BB3E4B /* ProfessionalSummary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */; };
 		F926C1BE22FF896000BB3E4B /* PSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1BD22FF896000BB3E4B /* PSViewController.swift */; };
@@ -22,6 +24,12 @@
 		F926C1C722FF8C1E00BB3E4B /* PSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C622FF8C1E00BB3E4B /* PSRouter.swift */; };
 		F926C1CA22FF8E2900BB3E4B /* PSBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */; };
 		F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93612A722FF67CC00FAC707 /* IBButton.swift */; };
+		F94BB41922FFADBD00AE062A /* PastExperience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94BB41822FFADBD00AE062A /* PastExperience.storyboard */; };
+		F94BB41B22FFAE3400AE062A /* PEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94BB41A22FFAE3400AE062A /* PEViewController.swift */; };
+		F94BB41E22FFAE8300AE062A /* PEPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94BB41D22FFAE8300AE062A /* PEPresenter.swift */; };
+		F94BB42122FFAEC200AE062A /* PEInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94BB42022FFAEC200AE062A /* PEInteractor.swift */; };
+		F94BB42422FFAF0A00AE062A /* PERouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94BB42322FFAF0A00AE062A /* PERouter.swift */; };
+		F94BB42722FFAF3500AE062A /* PEBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94BB42622FFAF3500AE062A /* PEBuilder.swift */; };
 		F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749AE22FE876600B14AB1 /* IBImageView.swift */; };
 		F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */; };
 		F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */; };
@@ -89,6 +97,8 @@
 		F9159FB822FE44FE0066E1A1 /* CGColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGColorExtension.swift; sourceTree = "<group>"; };
 		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		F91695E322FFB4A000BF8B1B /* PETableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PETableCell.swift; sourceTree = "<group>"; };
+		F91695E522FFB78900BF8B1B /* PastExperienceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastExperienceModel.swift; sourceTree = "<group>"; };
 		F91CC82922FF75C100C237A8 /* ContactBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBuilder.swift; sourceTree = "<group>"; };
 		F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfessionalSummary.storyboard; sourceTree = "<group>"; };
 		F926C1BD22FF896000BB3E4B /* PSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +107,12 @@
 		F926C1C622FF8C1E00BB3E4B /* PSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSRouter.swift; sourceTree = "<group>"; };
 		F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSBuilder.swift; sourceTree = "<group>"; };
 		F93612A722FF67CC00FAC707 /* IBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
+		F94BB41822FFADBD00AE062A /* PastExperience.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PastExperience.storyboard; sourceTree = "<group>"; };
+		F94BB41A22FFAE3400AE062A /* PEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEViewController.swift; sourceTree = "<group>"; };
+		F94BB41D22FFAE8300AE062A /* PEPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEPresenter.swift; sourceTree = "<group>"; };
+		F94BB42022FFAEC200AE062A /* PEInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEInteractor.swift; sourceTree = "<group>"; };
+		F94BB42322FFAF0A00AE062A /* PERouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PERouter.swift; sourceTree = "<group>"; };
+		F94BB42622FFAF3500AE062A /* PEBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PEBuilder.swift; sourceTree = "<group>"; };
 		F96749AE22FE876600B14AB1 /* IBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
 		F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationModel.swift; sourceTree = "<group>"; };
 		F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIBuilder.swift; sourceTree = "<group>"; };
@@ -258,6 +274,60 @@
 				F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */,
 			);
 			path = PSBuilder;
+			sourceTree = "<group>";
+		};
+		F94BB41622FFAD8F00AE062A /* PastExperienceModule */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB42522FFAF2900AE062A /* PEBuilder */,
+				F94BB42222FFAF0000AE062A /* PERouter */,
+				F94BB41F22FFAEB900AE062A /* PEInteractor */,
+				F94BB41C22FFAE6700AE062A /* PEPresenter */,
+				F94BB41722FFADA600AE062A /* PEView */,
+			);
+			path = PastExperienceModule;
+			sourceTree = "<group>";
+		};
+		F94BB41722FFADA600AE062A /* PEView */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB41A22FFAE3400AE062A /* PEViewController.swift */,
+				F91695E322FFB4A000BF8B1B /* PETableCell.swift */,
+				F94BB41822FFADBD00AE062A /* PastExperience.storyboard */,
+			);
+			path = PEView;
+			sourceTree = "<group>";
+		};
+		F94BB41C22FFAE6700AE062A /* PEPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB41D22FFAE8300AE062A /* PEPresenter.swift */,
+			);
+			path = PEPresenter;
+			sourceTree = "<group>";
+		};
+		F94BB41F22FFAEB900AE062A /* PEInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB42022FFAEC200AE062A /* PEInteractor.swift */,
+			);
+			path = PEInteractor;
+			sourceTree = "<group>";
+		};
+		F94BB42222FFAF0000AE062A /* PERouter */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB42322FFAF0A00AE062A /* PERouter.swift */,
+			);
+			path = PERouter;
+			sourceTree = "<group>";
+		};
+		F94BB42522FFAF2900AE062A /* PEBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F94BB42622FFAF3500AE062A /* PEBuilder.swift */,
+			);
+			path = PEBuilder;
 			sourceTree = "<group>";
 		};
 		F97E0C3022FF5E31007E5641 /* ContactModule */ = {
@@ -506,6 +576,7 @@
 		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F94BB41622FFAD8F00AE062A /* PastExperienceModule */,
 				F906AC6022FF97DD007284C0 /* TopicsOfKnowledgeModule */,
 				F926C1B922FF83B700BB3E4B /* ProfessionalSummaryModule */,
 				F97E0C3022FF5E31007E5641 /* ContactModule */,
@@ -524,6 +595,7 @@
 				F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */,
 				F9E5D71E22FF6F8800554A10 /* ContactModel.swift */,
 				F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */,
+				F91695E522FFB78900BF8B1B /* PastExperienceModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -717,6 +789,7 @@
 				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
 				F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */,
 				F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */,
+				F94BB41922FFADBD00AE062A /* PastExperience.storyboard in Resources */,
 				F9E5D71122FF6B0F00554A10 /* Contact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,9 +821,11 @@
 				F9159FB722FE44740066E1A1 /* IBView.swift in Sources */,
 				F9F1D87722FE2BE00089CEB7 /* HRouter.swift in Sources */,
 				F9E5D71722FF6CAA00554A10 /* CViewController.swift in Sources */,
+				F94BB42122FFAEC200AE062A /* PEInteractor.swift in Sources */,
 				F90F955C22FE7B0B00B5382F /* PIRouter.swift in Sources */,
 				F9F1D87E22FE2D0D0089CEB7 /* HomeElement.swift in Sources */,
 				F9C2E53C22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift in Sources */,
+				F94BB42722FFAF3500AE062A /* PEBuilder.swift in Sources */,
 				F9F1D87C22FE2CC10089CEB7 /* HomeModel.swift in Sources */,
 				F98BA51822FE742D002737DE /* PIViewController.swift in Sources */,
 				F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */,
@@ -765,11 +840,14 @@
 				F9C2E54522FFA34F005BE0F4 /* TOKBuilder.swift in Sources */,
 				F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
+				F94BB41E22FFAE8300AE062A /* PEPresenter.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HTableViewCell.swift in Sources */,
+				F94BB41B22FFAE3400AE062A /* PEViewController.swift in Sources */,
 				F9FB013122FF53AE00CAC841 /* ATPInteractor.swift in Sources */,
 				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
 				F926C1C722FF8C1E00BB3E4B /* PSRouter.swift in Sources */,
 				F9C342AC22FF9D7400DAEE0E /* TOKViewController.swift in Sources */,
+				F94BB42422FFAF0A00AE062A /* PERouter.swift in Sources */,
 				F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */,
 				F926C1C422FF8AFC00BB3E4B /* PSInteractor.swift in Sources */,
 				F9FDBD2622FF5BFE00F759DD /* ATPBuilder.swift in Sources */,
@@ -777,11 +855,13 @@
 				F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */,
 				F9159FB922FE44FE0066E1A1 /* CGColorExtension.swift in Sources */,
 				F9E5D71A22FF6DE300554A10 /* CPresenter.swift in Sources */,
+				F91695E622FFB78900BF8B1B /* PastExperienceModel.swift in Sources */,
 				F9F1D87A22FE2C410089CEB7 /* HInteractor.swift in Sources */,
 				F90F955A22FE7ACF00B5382F /* PIInteractor.swift in Sources */,
 				F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */,
 				F9C2E53A22FF9FCC005BE0F4 /* TOKPresenter.swift in Sources */,
 				F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */,
+				F91695E422FFB4A000BF8B1B /* PETableCell.swift in Sources */,
 				F9E5D71F22FF6F8800554A10 /* ContactModel.swift in Sources */,
 				F926C1C122FF8A3300BB3E4B /* PSPresenter.swift in Sources */,
 				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
