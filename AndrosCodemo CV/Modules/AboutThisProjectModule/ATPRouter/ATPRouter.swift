@@ -18,7 +18,7 @@ protocol ATPRouting {
 
 class ATPRouter {
     
-    var viewController: UIViewController
+    private unowned var viewController: UIViewController
     
     init(viewController: UIViewController) {
         self.viewController = viewController

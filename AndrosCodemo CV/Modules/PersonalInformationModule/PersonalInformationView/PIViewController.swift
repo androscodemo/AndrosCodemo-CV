@@ -41,9 +41,7 @@ class PIViewController: UIViewController {
         super.viewDidLoad()
         presenter.viewDidLoad()
     }
-    deinit {
-        print("deinit")
-    }
+
 }
 
 extension PIViewController: PIView {
