@@ -28,6 +28,11 @@
 		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
 		F98BA51822FE742D002737DE /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51722FE742D002737DE /* PIViewController.swift */; };
 		F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51922FE74B4002737DE /* PIPresenter.swift */; };
+		F9C2E53A22FF9FCC005BE0F4 /* TOKPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53922FF9FCC005BE0F4 /* TOKPresenter.swift */; };
+		F9C2E53C22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */; };
+		F9C2E53F22FFA138005BE0F4 /* TOKInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E53E22FFA138005BE0F4 /* TOKInteractor.swift */; };
+		F9C2E54222FFA232005BE0F4 /* TOKRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E54122FFA232005BE0F4 /* TOKRouter.swift */; };
+		F9C2E54522FFA34F005BE0F4 /* TOKBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2E54422FFA34F005BE0F4 /* TOKBuilder.swift */; };
 		F9C342A622FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C342A822FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard */; };
 		F9C342AC22FF9D7400DAEE0E /* TOKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */; };
 		F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */; };
@@ -98,6 +103,11 @@
 		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
 		F98BA51722FE742D002737DE /* PIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIViewController.swift; sourceTree = "<group>"; };
 		F98BA51922FE74B4002737DE /* PIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPresenter.swift; sourceTree = "<group>"; };
+		F9C2E53922FF9FCC005BE0F4 /* TOKPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKPresenter.swift; sourceTree = "<group>"; };
+		F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsOfKnowledgeModel.swift; sourceTree = "<group>"; };
+		F9C2E53E22FFA138005BE0F4 /* TOKInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKInteractor.swift; sourceTree = "<group>"; };
+		F9C2E54122FFA232005BE0F4 /* TOKRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKRouter.swift; sourceTree = "<group>"; };
+		F9C2E54422FFA34F005BE0F4 /* TOKBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKBuilder.swift; sourceTree = "<group>"; };
 		F9C342A722FF9C9F00DAEE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TopicsOfKnowledge.storyboard; sourceTree = "<group>"; };
 		F9C342AA22FF9CBC00DAEE0E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TopicsOfKnowledge.strings; sourceTree = "<group>"; };
 		F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +179,10 @@
 		F906AC6022FF97DD007284C0 /* TopicsOfKnowledgeModule */ = {
 			isa = PBXGroup;
 			children = (
+				F9C2E54322FFA341005BE0F4 /* TOKBuilder */,
+				F9C2E54022FFA227005BE0F4 /* TOKRouter */,
+				F9C2E53D22FFA12C005BE0F4 /* TOKInteractor */,
+				F9C2E53822FF9FBD005BE0F4 /* TOKPresenter */,
 				F906AC6122FF97EC007284C0 /* TOKView */,
 			);
 			path = TopicsOfKnowledgeModule;
@@ -306,6 +320,38 @@
 				F96749BD22FEA5DC00B14AB1 /* PIBuilder.swift */,
 			);
 			path = PersonalInformationBuilder;
+			sourceTree = "<group>";
+		};
+		F9C2E53822FF9FBD005BE0F4 /* TOKPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2E53922FF9FCC005BE0F4 /* TOKPresenter.swift */,
+			);
+			path = TOKPresenter;
+			sourceTree = "<group>";
+		};
+		F9C2E53D22FFA12C005BE0F4 /* TOKInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2E53E22FFA138005BE0F4 /* TOKInteractor.swift */,
+			);
+			path = TOKInteractor;
+			sourceTree = "<group>";
+		};
+		F9C2E54022FFA227005BE0F4 /* TOKRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2E54122FFA232005BE0F4 /* TOKRouter.swift */,
+			);
+			path = TOKRouter;
+			sourceTree = "<group>";
+		};
+		F9C2E54322FFA341005BE0F4 /* TOKBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F9C2E54422FFA34F005BE0F4 /* TOKBuilder.swift */,
+			);
+			path = TOKBuilder;
 			sourceTree = "<group>";
 		};
 		F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */ = {
@@ -477,6 +523,7 @@
 				F9F1D87D22FE2D0D0089CEB7 /* HomeElement.swift */,
 				F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */,
 				F9E5D71E22FF6F8800554A10 /* ContactModel.swift */,
+				F9C2E53B22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -703,9 +750,11 @@
 				F9E5D71722FF6CAA00554A10 /* CViewController.swift in Sources */,
 				F90F955C22FE7B0B00B5382F /* PIRouter.swift in Sources */,
 				F9F1D87E22FE2D0D0089CEB7 /* HomeElement.swift in Sources */,
+				F9C2E53C22FFA08A005BE0F4 /* TopicsOfKnowledgeModel.swift in Sources */,
 				F9F1D87C22FE2CC10089CEB7 /* HomeModel.swift in Sources */,
 				F98BA51822FE742D002737DE /* PIViewController.swift in Sources */,
 				F9F1D88522FE2EFA0089CEB7 /* UIStoryboardExtension.swift in Sources */,
+				F9C2E54222FFA232005BE0F4 /* TOKRouter.swift in Sources */,
 				F9FB012F22FF52E400CAC841 /* ATPPresenter.swift in Sources */,
 				F9FB012D22FF517E00CAC841 /* ATPViewController.swift in Sources */,
 				F9E5D72222FF702B00554A10 /* CRouter.swift in Sources */,
@@ -713,6 +762,7 @@
 				F9E5D71D22FF6F3600554A10 /* CInteractor.swift in Sources */,
 				F926C1BE22FF896000BB3E4B /* PSViewController.swift in Sources */,
 				F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */,
+				F9C2E54522FFA34F005BE0F4 /* TOKBuilder.swift in Sources */,
 				F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HTableViewCell.swift in Sources */,
@@ -730,10 +780,12 @@
 				F9F1D87A22FE2C410089CEB7 /* HInteractor.swift in Sources */,
 				F90F955A22FE7ACF00B5382F /* PIInteractor.swift in Sources */,
 				F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */,
+				F9C2E53A22FF9FCC005BE0F4 /* TOKPresenter.swift in Sources */,
 				F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */,
 				F9E5D71F22FF6F8800554A10 /* ContactModel.swift in Sources */,
 				F926C1C122FF8A3300BB3E4B /* PSPresenter.swift in Sources */,
 				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
+				F9C2E53F22FFA138005BE0F4 /* TOKInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
