@@ -28,6 +28,8 @@
 		F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = F9800B7822FE68310078EAC0 /* HomeModuleStrings.strings */; };
 		F98BA51822FE742D002737DE /* PIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51722FE742D002737DE /* PIViewController.swift */; };
 		F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BA51922FE74B4002737DE /* PIPresenter.swift */; };
+		F9C342A622FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C342A822FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard */; };
+		F9C342AC22FF9D7400DAEE0E /* TOKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */; };
 		F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */; };
 		F9E5D71122FF6B0F00554A10 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E5D71322FF6B0F00554A10 /* Contact.storyboard */; };
 		F9E5D71722FF6CAA00554A10 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E5D71622FF6CAA00554A10 /* CViewController.swift */; };
@@ -96,6 +98,9 @@
 		F9800B7722FE68310078EAC0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/HomeModuleStrings.strings; sourceTree = "<group>"; };
 		F98BA51722FE742D002737DE /* PIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIViewController.swift; sourceTree = "<group>"; };
 		F98BA51922FE74B4002737DE /* PIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIPresenter.swift; sourceTree = "<group>"; };
+		F9C342A722FF9C9F00DAEE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TopicsOfKnowledge.storyboard; sourceTree = "<group>"; };
+		F9C342AA22FF9CBC00DAEE0E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TopicsOfKnowledge.strings; sourceTree = "<group>"; };
+		F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOKViewController.swift; sourceTree = "<group>"; };
 		F9D1AED122FF388E00E93CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/PersonalInformation.storyboard; sourceTree = "<group>"; };
 		F9D1AED422FF38A200E93CD6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/PersonalInformation.strings; sourceTree = "<group>"; };
 		F9E5D71222FF6B0F00554A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Contact.storyboard; sourceTree = "<group>"; };
@@ -161,6 +166,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F906AC6022FF97DD007284C0 /* TopicsOfKnowledgeModule */ = {
+			isa = PBXGroup;
+			children = (
+				F906AC6122FF97EC007284C0 /* TOKView */,
+			);
+			path = TopicsOfKnowledgeModule;
+			sourceTree = "<group>";
+		};
+		F906AC6122FF97EC007284C0 /* TOKView */ = {
+			isa = PBXGroup;
+			children = (
+				F9C342AB22FF9D7400DAEE0E /* TOKViewController.swift */,
+				F9C342A822FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard */,
+			);
+			path = TOKView;
+			sourceTree = "<group>";
+		};
 		F9159FB522FE44680066E1A1 /* IBKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +460,7 @@
 		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F906AC6022FF97DD007284C0 /* TopicsOfKnowledgeModule */,
 				F926C1B922FF83B700BB3E4B /* ProfessionalSummaryModule */,
 				F97E0C3022FF5E31007E5641 /* ContactModule */,
 				F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */,
@@ -643,6 +666,7 @@
 				F9FB012722FF4D3400CAC841 /* AboutThisProject.storyboard in Resources */,
 				F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */,
 				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
+				F9C342A622FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard in Resources */,
 				F9F1D84622FE21630089CEB7 /* Assets.xcassets in Resources */,
 				F9800B7622FE68310078EAC0 /* HomeModuleStrings.strings in Resources */,
 				F9F1D84422FE21610089CEB7 /* HomeModule.storyboard in Resources */,
@@ -695,6 +719,7 @@
 				F9FB013122FF53AE00CAC841 /* ATPInteractor.swift in Sources */,
 				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
 				F926C1C722FF8C1E00BB3E4B /* PSRouter.swift in Sources */,
+				F9C342AC22FF9D7400DAEE0E /* TOKViewController.swift in Sources */,
 				F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */,
 				F926C1C422FF8AFC00BB3E4B /* PSInteractor.swift in Sources */,
 				F9FDBD2622FF5BFE00F759DD /* ATPBuilder.swift in Sources */,
@@ -750,6 +775,15 @@
 				F9800B7722FE68310078EAC0 /* es */,
 			);
 			name = HomeModuleStrings.strings;
+			sourceTree = "<group>";
+		};
+		F9C342A822FF9C9F00DAEE0E /* TopicsOfKnowledge.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C342A722FF9C9F00DAEE0E /* Base */,
+				F9C342AA22FF9CBC00DAEE0E /* es */,
+			);
+			name = TopicsOfKnowledge.storyboard;
 			sourceTree = "<group>";
 		};
 		F9D1AED222FF388E00E93CD6 /* PersonalInformation.storyboard */ = {
