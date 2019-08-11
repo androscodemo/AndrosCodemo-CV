@@ -14,7 +14,7 @@
         <scene sceneID="Oyw-9v-0XQ">
             <objects>
                 <viewController storyboardIdentifier="CViewController" id="yQT-d6-9yw" customClass="CViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vnY-89-mBK">
+                    <view key="view" contentMode="scaleToFill" id="vnY-89-mBK" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -176,6 +176,14 @@
                             <constraint firstItem="ogh-1c-urV" firstAttribute="centerX" secondItem="vnY-89-mBK" secondAttribute="centerX" id="rxv-1J-ED4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="lRo-DX-TnG"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="gradientSecondColor">
+                                <color key="value" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="gradientFirstColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
                         <outlet property="lblCellphone" destination="ScI-hK-bmd" id="MD0-yN-6Tw"/>
