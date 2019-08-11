@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="d07-y9-LyT">
+            <objects>
+                <viewController storyboardIdentifier="PSViewController" id="Bbs-so-V8E" customClass="PSViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="35O-CA-VCr" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="poW-zF-42M">
+                                <rect key="frame" x="32" y="52" width="256" height="484"/>
+                                <mutableString key="text">Egresado de la Benemérita Universidad Autónoma de Puebla (BUAP) como Ingeniero en Ciencias de la Computación
+
+Trabajé en algunas StartUps donde logré familiarizarme con el lenguaje Swift y los lineamientos de Apple, tanto para el desarrollo de aplicaciones como para su despliegue.
+
+Como único desarrollador en algunas de esas StartUps tuve la oportunidad de trabajar con muchos de los Frameworks que Apple ofrece.
+
+Al entrar a Banco Azteca logré compartir mi experiencia de desarrollo con el equipo de iOS y mejoré sustancialmente mis habilidades como líder.</mutableString>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="poW-zF-42M" firstAttribute="top" secondItem="gQO-7x-aKG" secondAttribute="top" constant="32" id="II4-EF-sik"/>
+                            <constraint firstItem="gQO-7x-aKG" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="poW-zF-42M" secondAttribute="bottom" constant="32" id="JO0-q2-k8f"/>
+                            <constraint firstItem="poW-zF-42M" firstAttribute="leading" secondItem="gQO-7x-aKG" secondAttribute="leading" constant="32" id="ONK-0W-fPx"/>
+                            <constraint firstItem="gQO-7x-aKG" firstAttribute="trailing" secondItem="poW-zF-42M" secondAttribute="trailing" constant="32" id="zjo-ks-xkf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gQO-7x-aKG"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="gradientFirstColor">
+                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="gradientSecondColor">
+                                <color key="value" red="0.78431372549019607" green="0.78431372549019607" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <connections>
+                        <outlet property="lblContent" destination="poW-zF-42M" id="SuW-dl-gb2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NPw-E5-k6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="99" y="132"/>
+        </scene>
+    </scenes>
+</document>

@@ -15,6 +15,12 @@
 		F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */; };
 		F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */; };
 		F91CC82A22FF75C100C237A8 /* ContactBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CC82922FF75C100C237A8 /* ContactBuilder.swift */; };
+		F926C1BC22FF83E600BB3E4B /* ProfessionalSummary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */; };
+		F926C1BE22FF896000BB3E4B /* PSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1BD22FF896000BB3E4B /* PSViewController.swift */; };
+		F926C1C122FF8A3300BB3E4B /* PSPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C022FF8A3300BB3E4B /* PSPresenter.swift */; };
+		F926C1C422FF8AFC00BB3E4B /* PSInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C322FF8AFC00BB3E4B /* PSInteractor.swift */; };
+		F926C1C722FF8C1E00BB3E4B /* PSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C622FF8C1E00BB3E4B /* PSRouter.swift */; };
+		F926C1CA22FF8E2900BB3E4B /* PSBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */; };
 		F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93612A722FF67CC00FAC707 /* IBButton.swift */; };
 		F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749AE22FE876600B14AB1 /* IBImageView.swift */; };
 		F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */; };
@@ -77,6 +83,12 @@
 		F9159FBA22FE47FB0066E1A1 /* UITableViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellExtension.swift; sourceTree = "<group>"; };
 		F9159FBC22FE48E50066E1A1 /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 		F91CC82922FF75C100C237A8 /* ContactBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactBuilder.swift; sourceTree = "<group>"; };
+		F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfessionalSummary.storyboard; sourceTree = "<group>"; };
+		F926C1BD22FF896000BB3E4B /* PSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSViewController.swift; sourceTree = "<group>"; };
+		F926C1C022FF8A3300BB3E4B /* PSPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSPresenter.swift; sourceTree = "<group>"; };
+		F926C1C322FF8AFC00BB3E4B /* PSInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSInteractor.swift; sourceTree = "<group>"; };
+		F926C1C622FF8C1E00BB3E4B /* PSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSRouter.swift; sourceTree = "<group>"; };
+		F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSBuilder.swift; sourceTree = "<group>"; };
 		F93612A722FF67CC00FAC707 /* IBButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
 		F96749AE22FE876600B14AB1 /* IBImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
 		F96749B922FE9B0900B14AB1 /* PersonalInformationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationModel.swift; sourceTree = "<group>"; };
@@ -157,6 +169,59 @@
 				F93612A722FF67CC00FAC707 /* IBButton.swift */,
 			);
 			path = IBKit;
+			sourceTree = "<group>";
+		};
+		F926C1B922FF83B700BB3E4B /* ProfessionalSummaryModule */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1C822FF8DFC00BB3E4B /* PSBuilder */,
+				F926C1C522FF8C0E00BB3E4B /* PSRouter */,
+				F926C1C222FF8AEE00BB3E4B /* PSInteractor */,
+				F926C1BF22FF8A2600BB3E4B /* PSPresenter */,
+				F926C1BA22FF83C800BB3E4B /* PSView */,
+			);
+			path = ProfessionalSummaryModule;
+			sourceTree = "<group>";
+		};
+		F926C1BA22FF83C800BB3E4B /* PSView */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1BD22FF896000BB3E4B /* PSViewController.swift */,
+				F926C1BB22FF83E600BB3E4B /* ProfessionalSummary.storyboard */,
+			);
+			path = PSView;
+			sourceTree = "<group>";
+		};
+		F926C1BF22FF8A2600BB3E4B /* PSPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1C022FF8A3300BB3E4B /* PSPresenter.swift */,
+			);
+			path = PSPresenter;
+			sourceTree = "<group>";
+		};
+		F926C1C222FF8AEE00BB3E4B /* PSInteractor */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1C322FF8AFC00BB3E4B /* PSInteractor.swift */,
+			);
+			path = PSInteractor;
+			sourceTree = "<group>";
+		};
+		F926C1C522FF8C0E00BB3E4B /* PSRouter */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1C622FF8C1E00BB3E4B /* PSRouter.swift */,
+			);
+			path = PSRouter;
+			sourceTree = "<group>";
+		};
+		F926C1C822FF8DFC00BB3E4B /* PSBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				F926C1C922FF8E2900BB3E4B /* PSBuilder.swift */,
+			);
+			path = PSBuilder;
 			sourceTree = "<group>";
 		};
 		F97E0C3022FF5E31007E5641 /* ContactModule */ = {
@@ -373,6 +438,7 @@
 		F9F1D86D22FE25B10089CEB7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F926C1B922FF83B700BB3E4B /* ProfessionalSummaryModule */,
 				F97E0C3022FF5E31007E5641 /* ContactModule */,
 				F9C67BAC22FF3FC400753D99 /* AboutThisProjectModule */,
 				F9FC342122FE72FB0029C067 /* PersonalInformationModule */,
@@ -573,6 +639,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F926C1BC22FF83E600BB3E4B /* ProfessionalSummary.storyboard in Resources */,
 				F9FB012722FF4D3400CAC841 /* AboutThisProject.storyboard in Resources */,
 				F9D1AED022FF388E00E93CD6 /* PersonalInformation.storyboard in Resources */,
 				F9F1D84922FE21630089CEB7 /* LaunchScreen.storyboard in Resources */,
@@ -618,14 +685,18 @@
 				F9FB012F22FF52E400CAC841 /* ATPPresenter.swift in Sources */,
 				F9FB012D22FF517E00CAC841 /* ATPViewController.swift in Sources */,
 				F9E5D72222FF702B00554A10 /* CRouter.swift in Sources */,
+				F926C1CA22FF8E2900BB3E4B /* PSBuilder.swift in Sources */,
 				F9E5D71D22FF6F3600554A10 /* CInteractor.swift in Sources */,
+				F926C1BE22FF896000BB3E4B /* PSViewController.swift in Sources */,
 				F96749BE22FEA5DC00B14AB1 /* PIBuilder.swift in Sources */,
 				F96749BA22FE9B0900B14AB1 /* PersonalInformationModel.swift in Sources */,
 				F9159FBD22FE48E50066E1A1 /* UITableViewExtension.swift in Sources */,
 				F9159FB222FE43120066E1A1 /* HTableViewCell.swift in Sources */,
 				F9FB013122FF53AE00CAC841 /* ATPInteractor.swift in Sources */,
 				F9F1D88122FE2DC30089CEB7 /* HomeModuleBuilder.swift in Sources */,
+				F926C1C722FF8C1E00BB3E4B /* PSRouter.swift in Sources */,
 				F93612A822FF67CC00FAC707 /* IBButton.swift in Sources */,
+				F926C1C422FF8AFC00BB3E4B /* PSInteractor.swift in Sources */,
 				F9FDBD2622FF5BFE00F759DD /* ATPBuilder.swift in Sources */,
 				F9F1D84122FE21610089CEB7 /* HViewController.swift in Sources */,
 				F98BA51A22FE74B4002737DE /* PIPresenter.swift in Sources */,
@@ -636,6 +707,7 @@
 				F9159FBB22FE47FB0066E1A1 /* UITableViewCellExtension.swift in Sources */,
 				F96749AF22FE876600B14AB1 /* IBImageView.swift in Sources */,
 				F9E5D71F22FF6F8800554A10 /* ContactModel.swift in Sources */,
+				F926C1C122FF8A3300BB3E4B /* PSPresenter.swift in Sources */,
 				F9F1D83F22FE21610089CEB7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

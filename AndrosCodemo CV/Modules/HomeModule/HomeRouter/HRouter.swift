@@ -21,7 +21,7 @@ protocol HRouting {
 
 class HRouter {
     
-    private var viewController: UIViewController
+    private unowned var viewController: UIViewController
     
     init(viewController: UIViewController) {
         self.viewController = viewController
@@ -47,7 +47,7 @@ extension HRouter: HRouting {
     }
     
     func goToProfessionalSummary(withTitle title: String) {
-        push(viewController: UIViewController())
+        push(viewController: PSBuilder().build(withTitle: localizedTitle(title)))
     }
     
     func goToTopicsOfKnowledge(withTitle title: String) {

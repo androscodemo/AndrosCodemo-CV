@@ -16,7 +16,7 @@ protocol PIRouting {
 
 class PIRouter {
     
-    private var viewController: UIViewController
+    private unowned var viewController: UIViewController
     
     init(viewController: UIViewController) {
         self.viewController = viewController

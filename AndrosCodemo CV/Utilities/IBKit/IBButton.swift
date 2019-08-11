@@ -18,4 +18,13 @@ import UIKit.UIButton
         layer.cornerRadius = cornerRadius + (frame.height * cornerRadiusMultiplier)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        shadowColor = .clear
+        super.touchesBegan(touches, with: event)
+    }
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        shadowColor = .black
+        super.touchesEnded(touches, with: event)
+    }
+    
 }
