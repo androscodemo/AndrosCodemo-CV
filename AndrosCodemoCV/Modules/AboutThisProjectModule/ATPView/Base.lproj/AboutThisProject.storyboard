@@ -13,8 +13,8 @@
         <!--View Controller-->
         <scene sceneID="BTL-42-r9D">
             <objects>
-                <viewController storyboardIdentifier="ATPViewController" id="6eQ-aF-erv" customClass="ATPViewController" customModule="AndrosCodemo_CV" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="SE3-LD-UOb" customClass="IBView" customModule="AndrosCodemo_CV" customModuleProvider="target">
+                <viewController storyboardIdentifier="ATPViewController" id="6eQ-aF-erv" customClass="ATPViewController" customModule="AndrosCodemoCV" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SE3-LD-UOb" customClass="IBView" customModule="AndrosCodemoCV" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -29,7 +29,7 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="0J7-8F-ByV">
-                                        <rect key="frame" x="32" y="22" width="256" height="382"/>
+                                        <rect key="frame" x="32" y="22" width="256" height="360"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senior Mobile Engineer Coding Test" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fn-DK-6m8">
                                                 <rect key="frame" x="0.0" y="0.0" width="256" height="49"/>
@@ -43,20 +43,20 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I implemented this code using VIPER software design and UnitTest for every module." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRb-wj-5lu">
-                                                <rect key="frame" x="0.0" y="137.5" width="256" height="64.5"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I implemented this code using VIPER software design." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRb-wj-5lu">
+                                                <rect key="frame" x="0.0" y="137.5" width="256" height="42.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The app consist in my own CV app." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MnO-hO-0Rv">
-                                                <rect key="frame" x="0.0" y="214" width="256" height="42.5"/>
+                                                <rect key="frame" x="0.0" y="192" width="256" height="42.5"/>
                                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="1m8-TG-B1f">
-                                                <rect key="frame" x="16" y="268.5" width="224" height="113.5"/>
+                                                <rect key="frame" x="16" y="246.5" width="224" height="113.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Personal information." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i1K-He-lip">
                                                         <rect key="frame" x="0.0" y="0.0" width="224" height="19.5"/>
@@ -119,7 +119,7 @@
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcX-NB-tcg">
-                                        <rect key="frame" x="160" y="462" width="0.0" height="0.0"/>
+                                        <rect key="frame" x="160" y="440" width="0.0" height="0.0"/>
                                         <gestureRecognizers/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
                                         <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
