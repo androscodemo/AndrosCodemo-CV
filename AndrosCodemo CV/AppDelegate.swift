@@ -14,7 +14,20 @@ import UIKit
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = HModuleBuilder().build()
+        let navigationController = UINavigationController()
+        navigationController.navigationBar.tintColor     = .black
+        navigationController.navigationBar.shadowBlur    = 4
+        navigationController.navigationBar.shadowColor   = .black
+        navigationController.navigationBar.shadowOpacity = 0.4
+        navigationController.navigationBar.isTranslucent = false
+        navigationController.navigationBar.shadowOffset  = CGSize(width : 0,
+                                                                  height: 4)
+        navigationController.navigationBar.barTintColor = UIColor(red  : 225/255,
+                                                                  green: 225/255,
+                                                                  blue : 225/255,
+                                                                  alpha: 1)
+        navigationController.viewControllers = [HModuleBuilder().build()]
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
         return true
     }

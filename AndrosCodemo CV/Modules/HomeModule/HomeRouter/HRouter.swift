@@ -55,7 +55,7 @@ extension HRouter: HRouting {
     }
     
     func goToPastExperience(withTitle title: String) {
-        push(viewController: UIViewController())
+        push(viewController: PEBuilder().build(withTitle: localizedTitle(title)))
     }
     
     func goToContact(withTitle title: String) {
